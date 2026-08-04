@@ -36,7 +36,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "Real Beltis",
     homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/9825.png",
     awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/8603.png",
-    kickoff: "2026-08-07T01:00:00+06:30",
+    kickoff: "2026-08-06T01:00:00+06:30",
     status: "upcoming",
     streams: [
       { label: "FHD", url: "FHD_STREAM_URL" },
