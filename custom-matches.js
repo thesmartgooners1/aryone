@@ -2,11 +2,11 @@ window.ARYONE_FOOTBALL_MATCHES = [
   {
     id: "match-01",
     league: "Friendly",
-    home: "Ararat Armenia",
-    away: "Celje",
-    homeLogo: "HOME_LOGO_URL",
-    awayLogo: "AWAY_LOGO_URL",
-    kickoff: "2026-08-05T20:00:00+06:30",
+    home: "AC Milan",
+    away: "Inter Milan",
+    homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/8564.png",
+    awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/8636.png",
+    kickoff: "2026-08-05T18:00:00+06:30",
     status: "upcoming",
     streams: [
       { label: "FHD", url: "FHD_STREAM_URL" },
