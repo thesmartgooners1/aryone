@@ -2,7 +2,7 @@
 window.ARYONE_FOOTBALL_MATCHES=[
   {
     id:'demo-football',
-    league:'AR YONE Friendly',
+    league:'Friendly',
     home:'Ararat Almaty',
     away:'Celje',
     homeLogo:'',
