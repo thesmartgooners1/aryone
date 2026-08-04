@@ -11,9 +11,8 @@ window.ARYONE_FOOTBALL_MATCHES=[
     status:'upcoming',
     // Link တစ်ခုထက်ပိုထည့်နိုင်သည်။ ပထမဆုံး link ကို အလိုအလျောက်ဖွင့်မည်။
     streams:[
-      {label:'SD',url:'https://hls.lauthaitv.cc/live/ararat-cellje-c1qual/index.m3u8'},
-      {label:'HD',url:'https://hls.lauthaitv.cc/live/ararat-cellje-c1qual/index.m3u8'},
-      {label:'FHD',url:'https://hls.lauthaitv.cc/live/ararat-cellje-c1qual/index.m3u8'}
+      {label:'FHD',url:'https://hls.lauthaitv.cc/live/ararat-cellje-c1qual/index.m3u8'},
+      {label:'HD',url:'https://live05.meung.app/live/08552895.m3u8'},
     ]
   }
 ];
