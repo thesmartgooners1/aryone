@@ -2,16 +2,85 @@
 window.ARYONE_FOOTBALL_MATCHES = [
   {
     id: "match-01",
-    league: "UEFA Champions League",
-    home: "Sabah FK",
-    away: "AGF",
-    homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/951893.png",
-    awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/8071.png",
-    kickoff: "2026-08-12T00:00:00+06:30",
-    status: "live",
+    league: "FRIENDLY",
+    home: "EVERTON",
+    away: "NEWCASTLE",
+    homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/8668.png",
+    awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/10261.png",
+    kickoff: "2026-08-12T22:45:00+06:30",
+    status: "upcoming",
     streams: [
-      { label: "FHD", url: "https://hls.lauthaitv.cc/live/sabah-aarhus-c1qual/index.m3u8" },
-      { label: "HD", url: "https://live05.meung.app/live/59444581.m3u8" }
+
+    ]
+  },
+
+  {
+    id: "match-03",
+    league: "FRIENDLY",
+    home: "ARSENAL",
+    away: "COMO",
+    homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/9825.png",
+    awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/10171.png",
+    kickoff: "2026-08-13T01:00:00+06:30",
+    status: "upcoming",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-04",
+    league: "FRIENDLY",
+    home: "MANCHESTER UNITED",
+    away: "LEEDS UNITED",
+    homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/10260.png",
+    awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/8463.png",
+    kickoff: "2026-08-13T01:00:00+06:30",
+    status: "upcoming",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-05",
+    league: "FRIENDLY",
+    home: "DEPORTIVO A C",
+    away: "REAL MADRID",
+    homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/9783.png",
+    awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
+    kickoff: "2026-08-13T01:30:00+06:30",
+    status: "upcoming",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-06",
+    league: "FRIENDLY",
+    home: "MALAGA",
+    away: "FULHAM",
+    homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/9864.png",
+    awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/9879.png",
+    kickoff: "2026-08-13T01:30:00+06:30",
+    status: "upcoming",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-07",
+    league: "FRIENDLY",
+    home: "NAPOLI",
+    away: "Aris Thess",
+    homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/9875.png",
+    awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/8239.png",
+    kickoff: "2026-08-13T01:30:00+06:30",
+    status: "upcoming",
+    streams: [
+
     ]
   }
 ];
