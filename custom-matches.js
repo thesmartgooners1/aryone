@@ -57,9 +57,10 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/9783.png",
     awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
     kickoff: "2026-08-13T01:30:00+06:30",
-    status: "upcoming",
+    status: "live",
     streams: [
-
+      { label: "HD", url: "https://live05.meung.app/live/02456966.m3u8" },
+      { label: "FHD", url: "https://hls.lauthaitv.cc/live/coruna-real-intcf/index.m3u8" }
     ]
   },
 
@@ -85,9 +86,14 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/9847.png",
     awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/10252.png",
     kickoff: "2026-08-13T01:30:00+06:30",
-    status: "upcoming",
+    status: "live",
     streams: [
-
+      { label: "HD", url: "https://live05.meung.app/live/33982309.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/08552895.m3u8" },
+      { label: "HD-3", url: "https://live05.meung.app/live/78905744.m3u8" },
+      { label: "FHD", url: "https://hls.lauthaitv.cc/live/psg-aston-uefasuper/index.m3u8" },
+      { label: "CHD", url: "https://hwyypull.ncctrials.com/live/stream-758611_lhd.m3u8?auth_key=1786563262-0-0-cef01de0e73445731d5c5abe67058fd3" },
+      { label: "CSD", url: "https://hwyypull.ncctrials.com/live/stream-758611_lsd.m3u8?auth_key=1786563262-0-0-bc1b11d73731d0cd0832dafe388c11" }
     ]
   }
 ];
