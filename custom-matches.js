@@ -64,20 +64,6 @@ window.ARYONE_FOOTBALL_MATCHES = [
   },
 
   {
-    id: "match-06",
-    league: "FRIENDLY",
-    home: "MALAGA",
-    away: "FULHAM",
-    homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/9864.png",
-    awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/9879.png",
-    kickoff: "2026-08-13T01:30:00+06:30",
-    status: "upcoming",
-    streams: [
-
-    ]
-  },
-
-  {
     id: "match-07",
     league: "FRIENDLY",
     home: "NAPOLI",
@@ -85,9 +71,9 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/9875.png",
     awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/8239.png",
     kickoff: "2026-08-13T01:30:00+06:30",
-    status: "upcoming",
+    status: "live",
     streams: [
-
+      { label: "HD", url: "https://hwyypull.ncctrials.com/live/stream-374391_lhd.m3u8?auth_key=1786562658-0-0-a6d7a8ed45fdc26e14de8252aa854377" }
     ]
   },
 
