@@ -8,9 +8,10 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/8668.png",
     awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/10261.png",
     kickoff: "2026-08-12T22:45:00+06:30",
-    status: "upcoming",
+    status: "live",
     streams: [
-
+      { label: "HD", url: "https://live05.meung.app/live/08552895.m3u8" },
+      { label: "FHD", url: "https://hls.lauthaitv.cc/live/news-eve-intcf/index.m3u8" }
     ]
   },
 
