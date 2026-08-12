@@ -82,5 +82,19 @@ window.ARYONE_FOOTBALL_MATCHES = [
     streams: [
 
     ]
+  },
+
+  {
+    id: "match-08",
+    league: "UEFA SUPER CUP",
+    home: "PSG",
+    away: "ASTON VILLA",
+    homeLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/9847.png",
+    awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/10252.png",
+    kickoff: "2026-08-13T01:30:00+06:30",
+    status: "upcoming",
+    streams: [
+
+    ]
   }
 ];
