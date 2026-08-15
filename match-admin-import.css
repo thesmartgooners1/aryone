@@ -1,0 +1,9 @@
+.import-panel textarea{height:190px;resize:vertical;font:11px/1.5 Consolas,monospace}
+.import-actions{display:grid;grid-template-columns:1fr 1fr 1fr;gap:9px;margin-top:10px}
+.file-button{display:grid;place-items:center;margin:0;padding:12px 15px;border:1px solid #3b3b3b;border-radius:11px;background:#202020;color:#fff;cursor:pointer;font-weight:800;text-align:center}
+.file-button input{display:none}
+.import-count{padding:6px 10px;border-radius:20px;background:#251014;color:#ff6872;font-size:10px;font-weight:800}
+.match-search{margin:0 0 13px}
+.item-actions button:first-child{background:#e30613}
+.output-panel textarea{min-height:420px}
+@media(max-width:620px){.import-actions{grid-template-columns:1fr}.import-panel textarea{height:150px}}
