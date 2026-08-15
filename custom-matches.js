@@ -339,7 +339,9 @@ window.ARYONE_FOOTBALL_MATCHES = [
       { label: "HD", url: "https://live05.meung.app/live/99121525.m3u8" },
       { label: "HD-2", url: "https://live05.meung.app/live/08552895.m3u8" },
       { label: "CHD", url: "https://hwyypull.ncctrials.com/live/stream-238362_lhd.m3u8?auth_key=1786807942-0-0-45611a7dcf05b9e640b55a12df54a5af" },
-      { label: "CSD", url: "https://hwyypull.ncctrials.com/live/stream-238362_lsd.m3u8?auth_key=1786807942-0-0-b6880857b738b4cb4e2bf84d3546c2d5" }
+      { label: "CSD", url: "https://hwyypull.ncctrials.com/live/stream-238362_lsd.m3u8?auth_key=1786807942-0-0-b6880857b738b4cb4e2bf84d3546c2d5" },
+      { label: "FHD", url: "https://pull.niur.live/live/stream-462413_lhd.m3u8?txSecret=b363eb0b5f29d0c711762bc95a3c7178&txTime=6a80ccfc" },
+      { label: "FHD-2", url: "https://pull.niur.live/live/stream-462413_lhd.m3u8?txSecret=369c31e7327274296b57ecdc04b64b57&txTime=6a80cd38" }
     ]
   },
 
