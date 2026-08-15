@@ -487,8 +487,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-15T20:00:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://pull.qjkngv.com/live/stream-729830_lhd.m3u8?auth_key=1786803443-0-0-c4d608d65c7976678ac446ba93799a86" }
     ]
   },
 
@@ -502,8 +501,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-15T20:00:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://pull.qjkngv.com/live/stream-764027_lhd.m3u8?auth_key=1786803388-0-0-ac7888766b6c5b27eab63eb5d24a6c79" }
     ]
   },
 
@@ -517,8 +515,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-15T20:00:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://live05.meung.app/live/82054853.m3u8" }
     ]
   },
 
@@ -532,8 +529,8 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-15T19:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://live05.meung.app/live/33982309.m3u8" },
+      { label: "FHD", url: "https://live05.meung.app/live/02456966.m3u8" }
     ]
   },
 
@@ -562,8 +559,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-15T19:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://live05.meung.app/live/75748097.m3u8" }
     ]
   },
 
