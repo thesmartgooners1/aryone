@@ -277,8 +277,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-15T23:59:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://pull.qjkngv.com/live/stream-502401_lhd.m3u8?auth_key=1786812864-0-0-b8e42ba26539ce31375c05988e76fbc0" }
     ]
   },
 
@@ -321,8 +320,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-15T22:00:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://hwyypull.ncctrials.com/live/stream-794739_lhd.m3u8?auth_key=1786812803-0-0-9b2c422a1c2e077c985f092fd083356b" }
     ]
   },
 
