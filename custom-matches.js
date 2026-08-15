@@ -10,7 +10,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-15T18:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
+      { label: "HD", url: "https://live05.meung.app/live/14707124.m3u8" },
       { label: "FHD", url: "" }
     ]
   },
