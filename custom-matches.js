@@ -156,8 +156,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-15T16:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://hwyypull.ncctrials.com/live/stream-238362_lhd.m3u8?auth_key=1786794021-0-0-60bad9fded0c415fd2b56c4dcff5a439" }
     ]
   },
 
