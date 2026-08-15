@@ -283,47 +283,16 @@ window.ARYONE_FOOTBALL_MATCHES = [
   },
 
   {
-    id: "178677963886",
-    league: "SAUDI PRO LEAGUE",
-    home: "AL TAAWON",
-    away: "AL KHOLOOD",
-    homeLogo: "https://assets.football-logos.cc/logos/saudi-arabia/700x700/al-taawoun.c11d8a24.png",
-    awayLogo: "https://assets.football-logos.cc/logos/saudi-arabia/700x700/al-kholood.f0409d13.png",
-    kickoff: "2026-08-15T22:45:00+06:30",
-    status: "auto",
-    streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
-    ]
-  },
-
-  {
     id: "178677946424",
     league: "CHAMPIONSHIP",
     home: "STOKE CITY",
     away: "SWANSEA",
     homeLogo: "https://assets.football-logos.cc/logos/england/700x700/stoke-city.4e291497.png",
     awayLogo: "https://assets.football-logos.cc/logos/england/700x700/swansea-city.9faadb0e.png",
-    kickoff: "2026-08-15T22:30:00+06:30",
+    kickoff: "2026-08-15T20:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
-    ]
-  },
-
-  {
-    id: "178677941537",
-    league: "CHAMPIONSHIP",
-    home: "MIDDLESBROUGH",
-    away: "LINCOLN RED IMPS FC",
-    homeLogo: "https://assets.football-logos.cc/logos/england/700x700/middlesbrough.8e803a82.png",
-    awayLogo: "https://assets.football-logos.cc/logos/gibraltar/700x700/lincoln-red-imps.e1cbec56.png",
-    kickoff: "2026-08-15T22:30:00+06:30",
-    status: "auto",
-    streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://live05.meung.app/live/87379114.m3u8" }
     ]
   },
 
@@ -334,11 +303,11 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "WEST BROM",
     homeLogo: "https://assets.football-logos.cc/logos/england/700x700/norwich-city.3191afbd.png",
     awayLogo: "https://assets.football-logos.cc/logos/england/700x700/west-bromwich-albion.239d8196.png",
-    kickoff: "2026-08-15T22:30:00+06:30",
+    kickoff: "2026-08-15T20:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://pull.qjkngv.com/live/stream-502401_lhd.m3u8?auth_key=1786804581-0-0-367f1d24ab0d12b16bcae8a9440dff2e" },
+      { label: "SD", url: "https://pull.qjkngv.com/live/stream-502401_lsd.m3u8?auth_key=1786804581-0-0-64e78d4d009a44edbfb9ed2548ab511f" }
     ]
   },
 
@@ -350,21 +319,6 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://assets.football-logos.cc/logos/germany/700x700/borussia-dortmund.c2e456ab.png",
     awayLogo: "https://assets.football-logos.cc/logos/italy/700x700/roma.00288a7d.png",
     kickoff: "2026-08-15T22:00:00+06:30",
-    status: "auto",
-    streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
-    ]
-  },
-
-  {
-    id: "178676198378",
-    league: "FRIENDLIES",
-    home: "FULHAM",
-    away: "VFB STUTTGART",
-    homeLogo: "https://assets.football-logos.cc/logos/england/700x700/fulham.328af448.png",
-    awayLogo: "https://assets.football-logos.cc/logos/germany/700x700/vfb-stuttgart.384702b0.png",
-    kickoff: "2026-08-15T21:30:00+06:30",
     status: "auto",
     streams: [
       { label: "HD", url: "" },
@@ -397,8 +351,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-15T20:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://live05.meung.app/live/07808742.m3u8" }
     ]
   },
 
@@ -412,53 +365,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-15T20:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
-    ]
-  },
-
-  {
-    id: "20260815-sunderland-rennes",
-    league: "FRIENDLIES",
-    home: "SUNDERLAND FC",
-    away: "RENNES",
-    homeLogo: "https://assets.football-logos.cc/logos/england/700x700/sunderland.0bcaf622.png",
-    awayLogo: "https://assets.football-logos.cc/logos/france/700x700/rennes.fa29376a.png",
-    kickoff: "2026-08-15T20:30:00+06:30",
-    status: "auto",
-    streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
-    ]
-  },
-
-  {
-    id: "178676151712",
-    league: "FRIENDLIES",
-    home: "EVERTON",
-    away: "LILLE",
-    homeLogo: "https://assets.football-logos.cc/logos/england/700x700/everton.05c044b8.png",
-    awayLogo: "https://assets.football-logos.cc/logos/france/700x700/lille.3695616f.png",
-    kickoff: "2026-08-15T20:30:00+06:30",
-    status: "auto",
-    streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
-    ]
-  },
-
-  {
-    id: "178676147431",
-    league: "FRIENDLIES",
-    home: "BRIGHTON",
-    away: "BOLOGNA",
-    homeLogo: "https://assets.football-logos.cc/logos/england/700x700/brighton.0b088155.png",
-    awayLogo: "https://assets.football-logos.cc/logos/italy/700x700/bologna.577e3847.png",
-    kickoff: "2026-08-15T20:30:00+06:30",
-    status: "auto",
-    streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://live05.meung.app/live/78905744.m3u8" }
     ]
   },
 
@@ -472,8 +379,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-15T20:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://hwyypull.ncctrials.com/live/stream-557437_lhd.m3u8?auth_key=1786805065-0-0-759eb2761a81aaa75c0bdfd0aa902151" }
     ]
   },
 
