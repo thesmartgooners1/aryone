@@ -145,8 +145,8 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-16T21:00:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://hwyypull.ncctrials.com/live/stream-794739_lhd.m3u8?auth_key=1786892664-0-0-4f6bd931d6390d2f6b95a1d2e1eb3698" },
+      { label: "SD", url: "https://hwyypull.ncctrials.com/live/stream-794739_lsd.m3u8?auth_key=1786892664-0-0-8a8aa54eb2704f216979a54cab0ad394" }
     ]
   },
 
@@ -163,7 +163,11 @@ window.ARYONE_FOOTBALL_MATCHES = [
       { label: "HD", url: "https://live05.meung.app/live/87379114.m3u8" },
       { label: "HD-2", url: "https://live05.meung.app/live/07808742.m3u8" },
       { label: "CHD", url: "https://hwyypull.ncctrials.com/live/stream-557437_lhd.m3u8?auth_key=1786891463-0-0-0aaf3056b3e2d03b29dfadbdc534dae2" },
-      { label: "CSD", url: "https://hwyypull.ncctrials.com/live/stream-557437_lsd.m3u8?auth_key=1786891463-0-0-291cc68dc618051ae94ccc4baf9f9bd0" }
+      { label: "CSD", url: "https://hwyypull.ncctrials.com/live/stream-557437_lsd.m3u8?auth_key=1786891463-0-0-291cc68dc618051ae94ccc4baf9f9bd0" },
+      { label: "ENG-1", url: "https://b44f955a.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/U3BvcnRzVHJpYmFsLWV1X01hbkNpdHkyNDdfSExT/eecacc10-9cb5-4cfd-970b-33a293b81897/1.m3u8" },
+      { label: "ENG-2", url: "https://a90.azplay47.me/hls/streama264557/index.m3u8?cst=e4fc18dd81526575e4465868c7d83e4f" },
+      { label: "FHD", url: "https://pull.niues.live/live/stream-599634_lhd.m3u8?auth_key=1786833592-0-0-fa5bf47b69126db62c3c1685c5018f15" },
+      { label: "FHD-2", url: "https://pull.niur.live/live/stream-414317_lhd.m3u8?txSecret=08016199740c684490ff2a68d5bf81c2&txTime=6a820658" }
     ]
   }
 ];
