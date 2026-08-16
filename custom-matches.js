@@ -160,8 +160,10 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-16T20:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "" },
-      { label: "FHD", url: "" }
+      { label: "HD", url: "https://live05.meung.app/live/87379114.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/07808742.m3u8" },
+      { label: "CHD", url: "https://hwyypull.ncctrials.com/live/stream-557437_lhd.m3u8?auth_key=1786891463-0-0-0aaf3056b3e2d03b29dfadbdc534dae2" },
+      { label: "CSD", url: "https://hwyypull.ncctrials.com/live/stream-557437_lsd.m3u8?auth_key=1786891463-0-0-291cc68dc618051ae94ccc4baf9f9bd0" }
     ]
   }
 ];
