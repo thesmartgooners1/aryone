@@ -10,7 +10,12 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-08-22T18:00:00+06:30",
     status: "auto",
     streams: [
-
+      { label: "HD", url: "https://live05.meung.app/live/33982309.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/90865415.m3u8" },
+      { label: "HD-3", url: "https://live05.meung.app/live/97885009.m3u8" },
+      { label: "FHD", url: "https://hls.lauthaitv.cc/live/hull-manu-prem/index.m3u8" },
+      { label: "CHD", url: "https://hwyypull.ncctrials.com/live/stream-746673_lhd.m3u8?auth_key=1787400870-0-0-1aeb164d93a3c19e1f65b947b02275f3" },
+      { label: "CSD", url: "https://hwyypull.ncctrials.com/live/stream-746673_lsd.m3u8?auth_key=1787400870-0-0-57ca9d271612398620b908d417a15832" }
     ]
   }
 ];
