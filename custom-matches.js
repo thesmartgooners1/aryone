@@ -5,13 +5,11 @@ window.ARYONE_FOOTBALL_MATCHES = [
     league: "SPAIN LALIGA",
     home: "DEPORTIVO ALAVES",
     away: "VILLARREAL",
-    homeLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Deportivo_Alaves_logo_(2020).svg",
-    awayLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Villarreal_CF_logo-en.svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3a/Deportivo_Alav%C3%A9s_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/70/Villarreal_CF_logo.svg",
     kickoff: "2026-08-29T02:00:00+06:30",
     status: "auto",
-    streams: [
-
-    ]
+    streams: []
   },
 
   {
@@ -19,12 +17,15 @@ window.ARYONE_FOOTBALL_MATCHES = [
     league: "ENGLISH PREMIER LEAGUE",
     home: "CRYSTAL PALACE",
     away: "MANCHESTER CITY",
-    homeLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Crystal_Palace_FC_logo.svg",
-    awayLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Manchester_City_FC_badge.svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/a/a2/Crystal_Palace_FC_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
     kickoff: "2026-08-29T01:30:00+06:30",
     status: "auto",
     streams: [
-
+      { label: "HD",   url: "https://live05.meung.app/live/33982309.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/33982309.m3u8" },
+      { label: "HD-3", url: "https://live05.meung.app/live/78905744.m3u8" },
+      { label: "HD-4", url: "https://live05.meung.app/live/78905744.m3u8" }
     ]
   },
 
@@ -33,12 +34,12 @@ window.ARYONE_FOOTBALL_MATCHES = [
     league: "FRANCE LIGUE 1",
     home: "LILLE",
     away: "PARIS SAINT GERMAIN",
-    homeLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lille_OSC_2018_logo.svg",
-    awayLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Paris_Saint-Germain_F.C..svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3f/Lille_OSC_2018_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
     kickoff: "2026-08-29T01:15:00+06:30",
     status: "auto",
     streams: [
-
+      { label: "HD", url: "https://live05.meung.app/live/02456966.m3u8" }
     ]
   },
 
@@ -47,12 +48,13 @@ window.ARYONE_FOOTBALL_MATCHES = [
     league: "ITALY SERIE A",
     home: "AC MILAN",
     away: "VENEZIA",
-    homeLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Logo_of_AC_Milan.svg",
-    awayLogo: "https://it.wikipedia.org/wiki/Special:Redirect/file/Venezia_FC_Logo_2026.svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/6/6f/Venezia_FC_logo.svg",
     kickoff: "2026-08-29T01:15:00+06:30",
     status: "auto",
     streams: [
-
+      { label: "HD",   url: "https://live05.meung.app/live/97885009.m3u8" },
+      { label: "HD-2", url: "https://live2.cachefluxlive.com/livecdn/channel-18.m3u8?auth_key=3000001787942831-0-0-8e075db43da35bb5d5bc140b75488790" }
     ]
   },
 
@@ -61,13 +63,11 @@ window.ARYONE_FOOTBALL_MATCHES = [
     league: "GERMANY BUNDESLIGA",
     home: "BAYERN MUNICH",
     away: "VFB STUTTGART",
-    homeLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/FC_Bayern_M%C3%BCnchen_logo_(2024).svg",
-    awayLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/VfB_Stuttgart_1893_Logo.svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/commons/e/e5/VfB_Stuttgart_1893_Logo.svg",
     kickoff: "2026-08-29T01:00:00+06:30",
     status: "auto",
-    streams: [
-
-    ]
+    streams: []
   },
 
   {
@@ -75,13 +75,11 @@ window.ARYONE_FOOTBALL_MATCHES = [
     league: "SAUDI PRO LEAGUE",
     home: "AL-NASSR",
     away: "AL TAAWOUN",
-    homeLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nassr_FC_Logo.svg",
-    awayLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Al_Taawoun_FC_Logo.svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/5c/Al-Nassr_FC_Logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/6/68/Al-Taawoun_FC_logo.svg",
     kickoff: "2026-08-29T00:30:00+06:30",
     status: "auto",
-    streams: [
-
-    ]
+    streams: []
   },
 
   {
@@ -89,12 +87,10 @@ window.ARYONE_FOOTBALL_MATCHES = [
     league: "SAUDI PRO LEAGUE",
     home: "AL-KHALEEJ",
     away: "AL-HILAL SAUDI FC",
-    homeLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Al-Khaleej_FC_Logo.svg",
-    awayLogo: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Al-Hilal_SFC_logo.svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/9/9e/Al-Khaleej_Club_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/5c/Al-Hilal_Saudi_FC_logo.svg",
     kickoff: "2026-08-29T00:30:00+06:30",
     status: "auto",
-    streams: [
-
-    ]
+    streams: []
   }
 ];
