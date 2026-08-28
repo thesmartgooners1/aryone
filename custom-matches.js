@@ -9,7 +9,9 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/70/Villarreal_CF_logo.svg",
     kickoff: "2026-08-29T02:00:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      { label: "HD", url: "https://live05.meung.app/live/99121525.m3u8" }
+    ]
   },
 
   {
@@ -67,7 +69,11 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/commons/e/e5/VfB_Stuttgart_1893_Logo.svg",
     kickoff: "2026-08-29T01:00:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      { label: "HD",   url: "https://live05.meung.app/live/14830711.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/14830711.m3u8" },
+      { label: "HD-3", url: "https://live2.cachefluxlive.com/livecdn/channel-16.m3u8?auth_key=3000001787938837-0-0-fe338ea724461cb101862a11c3cfd59e" }
+    ]
   },
 
   {
