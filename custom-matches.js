@@ -2,101 +2,351 @@
 window.ARYONE_FOOTBALL_MATCHES = [
   {
     id: "match-01",
-    league: "SPAIN LALIGA",
-    home: "DEPORTIVO ALAVES",
-    away: "VILLARREAL",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3a/Deportivo_Alav%C3%A9s_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/70/Villarreal_CF_logo.svg",
-    kickoff: "2026-08-29T02:00:00+06:30",
+    league: "ENGLAND PREMIER LEAGUE",
+    home: "LIVERPOOL",
+    away: "NOTTINGHAM FOREST",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/e5/Nottingham_Forest_F.C._logo.svg",
+    kickoff: "2026-08-29T18:00:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "https://live05.meung.app/live/99121525.m3u8" }
+
     ]
   },
 
   {
     id: "match-02",
-    league: "ENGLISH PREMIER LEAGUE",
-    home: "CRYSTAL PALACE",
-    away: "MANCHESTER CITY",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/a/a2/Crystal_Palace_FC_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
-    kickoff: "2026-08-29T01:30:00+06:30",
+    league: "ENGLAND PREMIER LEAGUE",
+    home: "BOURNEMOUTH",
+    away: "EVERTON",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/e/e5/AFC_Bournemouth_%282013%29.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg",
+    kickoff: "2026-08-29T20:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD",   url: "https://live05.meung.app/live/33982309.m3u8" },
-      { label: "HD-2", url: "https://live05.meung.app/live/33982309.m3u8" },
-      { label: "HD-3", url: "https://live05.meung.app/live/78905744.m3u8" },
-      { label: "HD-4", url: "https://live05.meung.app/live/78905744.m3u8" }
+
     ]
   },
 
   {
     id: "match-03",
-    league: "FRANCE LIGUE 1",
-    home: "LILLE",
-    away: "PARIS SAINT GERMAIN",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3f/Lille_OSC_2018_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
-    kickoff: "2026-08-29T01:15:00+06:30",
+    league: "ENGLAND PREMIER LEAGUE",
+    home: "COVENTRY CITY",
+    away: "HULL CITY",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/1/1a/Coventry_City_FC_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/sco/thumb/2/20/Hull_City_Crest_2014.svg/250px-Hull_City_Crest_2014.svg.png",
+    kickoff: "2026-08-29T20:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD", url: "https://live05.meung.app/live/02456966.m3u8" }
+
     ]
   },
 
   {
     id: "match-04",
-    league: "ITALY SERIE A",
-    home: "AC MILAN",
-    away: "VENEZIA",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/6/6f/Venezia_FC_logo.svg",
-    kickoff: "2026-08-29T01:15:00+06:30",
+    league: "ENGLAND PREMIER LEAGUE",
+    home: "TOTTENHAM HOTSPUR",
+    away: "NEWCASTLE UNITED",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Newcastle_United_Logo.svg",
+    kickoff: "2026-08-29T23:00:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD",   url: "https://live05.meung.app/live/97885009.m3u8" },
-      { label: "HD-2", url: "https://live2.cachefluxlive.com/livecdn/channel-18.m3u8?auth_key=3000001787942831-0-0-8e075db43da35bb5d5bc140b75488790" }
+
     ]
   },
 
   {
     id: "match-05",
-    league: "GERMANY BUNDESLIGA",
-    home: "BAYERN MUNICH",
-    away: "VFB STUTTGART",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/commons/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/commons/e/e5/VfB_Stuttgart_1893_Logo.svg",
-    kickoff: "2026-08-29T01:00:00+06:30",
+    league: "SPAIN LALIGA",
+    home: "LEVANTE",
+    away: "REAL BETIS",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/1/1e/Levante_UD.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/13/Real_betis_logo.svg",
+    kickoff: "2026-08-29T20:30:00+06:30",
     status: "auto",
     streams: [
-      { label: "HD",   url: "https://live05.meung.app/live/14830711.m3u8" },
-      { label: "HD-2", url: "https://live05.meung.app/live/14830711.m3u8" },
-      { label: "HD-3", url: "https://live2.cachefluxlive.com/livecdn/channel-16.m3u8?auth_key=3000001787938837-0-0-fe338ea724461cb101862a11c3cfd59e" }
+
     ]
   },
 
   {
     id: "match-06",
-    league: "SAUDI PRO LEAGUE",
-    home: "AL-NASSR",
-    away: "AL TAAWOUN",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/5c/Al-Nassr_FC_Logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/6/68/Al-Taawoun_FC_logo.svg",
-    kickoff: "2026-08-29T00:30:00+06:30",
+    league: "SPAIN LALIGA",
+    home: "REAL SOCIEDAD",
+    away: "ESPANYOL",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/f/f1/Real_Sociedad_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/6/6b/RCD_Espanyol_crest.svg",
+    kickoff: "2026-08-29T22:00:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+
+    ]
   },
 
   {
     id: "match-07",
-    league: "SAUDI PRO LEAGUE",
-    home: "AL-KHALEEJ",
-    away: "AL-HILAL SAUDI FC",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/9/9e/Al-Khaleej_Club_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/5c/Al-Hilal_Saudi_FC_logo.svg",
-    kickoff: "2026-08-29T00:30:00+06:30",
+    league: "SPAIN LALIGA",
+    home: "SEVILLA",
+    away: "ATLETICO MADRID",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3b/Sevilla_FC_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg",
+    kickoff: "2026-08-30T00:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-08",
+    league: "ITALY SERIE A",
+    home: "FIORENTINA",
+    away: "FROSINONE",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/1/1d/ACF_Fiorentina_Logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/6/68/Frosinone_Calcio.svg",
+    kickoff: "2026-08-29T21:00:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-09",
+    league: "ITALY SERIE A",
+    home: "MONZA",
+    away: "UDINESE",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/5c/AC_Monza_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/5d/Udinese_Calcio_logo.svg",
+    kickoff: "2026-08-29T21:00:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-10",
+    league: "ITALY SERIE A",
+    home: "SASSUOLO",
+    away: "TORINO",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/4/4d/US_Sassuolo_Calcio_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/2/2e/Torino_FC_Logo.svg",
+    kickoff: "2026-08-29T21:00:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-11",
+    league: "ITALY SERIE A",
+    home: "JUVENTUS",
+    away: "PARMA",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/2/2e/Parma_Calcio_1913_logo.svg",
+    kickoff: "2026-08-29T23:15:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-12",
+    league: "GERMANY BUNDESLIGA",
+    home: "UNION BERLIN",
+    away: "EINTRACHT FRANKFURT",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/4/44/1._FC_Union_Berlin_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/0/04/Eintracht_Frankfurt_Logo.svg",
+    kickoff: "2026-08-29T18:30:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-13",
+    league: "GERMANY BUNDESLIGA",
+    home: "FC KOLN",
+    away: "HOFFENHEIM",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/53/1._FC_K%C3%B6ln_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/e7/TSG_1899_Hoffenheim.svg",
+    kickoff: "2026-08-29T18:30:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-14",
+    league: "GERMANY BUNDESLIGA",
+    home: "MAINZ",
+    away: "PADERBORN",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/9/9e/1._FSV_Mainz_05_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/3/3c/SC_Paderborn_07_logo.svg",
+    kickoff: "2026-08-29T18:30:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-15",
+    league: "GERMANY BUNDESLIGA",
+    home: "RB LEIPZIG",
+    away: "BORUSSIA MONCHENGLADBACH",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/0/04/RB_Leipzig_2014_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/commons/8/81/Borussia_M%C3%B6nchengladbach_logo.svg",
+    kickoff: "2026-08-29T18:30:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-16",
+    league: "GERMANY BUNDESLIGA",
+    home: "ELVERSBERG",
+    away: "BAYER LEVERKUSEN",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/5f/SV_Elversberg_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg",
+    kickoff: "2026-08-29T18:30:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-17",
+    league: "GERMANY BUNDESLIGA",
+    home: "BORUSSIA DORTMUND",
+    away: "HAMBURG",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/commons/6/66/HSV-Logo.svg",
+    kickoff: "2026-08-29T21:30:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-18",
+    league: "FRANCE LIGUE 1",
+    home: "STRASBOURG",
+    away: "RC LENS",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/1/1c/Racing_Club_de_Strasbourg_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/c/cc/RC_Lens_logo.svg",
+    kickoff: "2026-08-29T20:45:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-19",
+    league: "FRANCE LIGUE 1",
+    home: "AUXERRE",
+    away: "ANGERS",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/59/AJ_Auxerre_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/6/6e/Angers_SCO_logo.svg",
+    kickoff: "2026-08-30T00:15:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-20",
+    league: "FRANCE LIGUE 1",
+    home: "BREST",
+    away: "TOULOUSE",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/8/8a/Stade_Brestois_29_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/8/8e/Toulouse_FC_2018_logo.svg",
+    kickoff: "2026-08-30T00:15:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-21",
+    league: "FRANCE LIGUE 1",
+    home: "LORIENT",
+    away: "TROYES",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3b/FC_Lorient_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/ES_Troyes_AC_logo.svg",
+    kickoff: "2026-08-30T00:15:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-22",
+    league: "FRANCE LIGUE 1",
+    home: "LYON",
+    away: "LE HAVRE",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/4/4c/Olympique_Lyonnais.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/3/3e/Le_Havre_AC_logo.svg",
+    kickoff: "2026-08-30T00:15:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-23",
+    league: "PORTUGAL LIGA",
+    home: "ALVERCA",
+    away: "SANTA CLARA",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/6/63/FC_Alverca_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/6/6e/CD_Santa_Clara_logo.svg",
+    kickoff: "2026-08-29T21:00:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-24",
+    league: "PORTUGAL LIGA",
+    home: "AROUCA",
+    away: "MARITIMO",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/5d/FC_Arouca_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/9/9e/CS_Mar%C3%ADtimo_logo.svg",
+    kickoff: "2026-08-29T21:00:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
+  },
+
+  {
+    id: "match-25",
+    league: "PORTUGAL LIGA",
+    home: "ACADEMICO VISEU",
+    away: "FC PORTO",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/6/6c/Acad%C3%A9mico_de_Viseu_FC_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/f1/FC_Porto.svg",
+    kickoff: "2026-08-29T23:30:00+06:30",
+    status: "auto",
+    streams: [
+
+    ]
   }
 ];
