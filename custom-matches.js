@@ -9,7 +9,20 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/b/ba/AS_Monaco_FC.svg",
     kickoff: "2026-09-05T01:35:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/psg-monaco-ligue1/index.m3u8"
+      },
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/02456966.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/97885009.m3u8"
+      }
+    ]
   },
 
   {
@@ -21,7 +34,24 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
     kickoff: "2026-09-05T01:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/betis-madrid-laliga/index.m3u8"
+      },
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/08552895.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/33982309.m3u8"
+      },
+      {
+        label: "HD-3",
+        url: "https://live05.meung.app/live/14707124.m3u8"
+      }
+    ]
   },
 
   {
@@ -33,7 +63,40 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
     kickoff: "2026-09-05T01:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/78905744.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/14830711.m3u8"
+      },
+      {
+        label: "HD-3",
+        url: "https://live05.meung.app/live/82054853.m3u8"
+      },
+      {
+        label: "Chinese HD",
+        url: "https://hwyypull.ncctrials.com/live/stream-557437_lhd.m3u8?auth_key=1788550719-0-0-2e981fea8dfe78b54d8228b68b1c10ca"
+      },
+      {
+        label: "Chinese HD-2",
+        url: "https://hwyypull.ncctrials.com/live/stream-500894_lhd.m3u8?auth_key=1788550719-0-0-cbcf058ff9c3b0e418a00dc9ddbe4a6e"
+      },
+      {
+        label: "Chinese SD",
+        url: "https://hwyypull.ncctrials.com/live/stream-557437_lsd.m3u8?auth_key=1788550719-0-0-10a202119cad2cbceac776562f2cc193"
+      },
+      {
+        label: "Chinese SD-2",
+        url: "https://hwyypull.ncctrials.com/live/stream-500894_lsd.m3u8?auth_key=1788550719-0-0-48f8bda86d2bbbf510b50f079a1dc2a4"
+      },
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/ips-liv-prem/index.m3u8"
+      }
+    ]
   },
 
   {
