@@ -170,7 +170,16 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/77/Sunderland_AFC_logo.svg",
     kickoff: "2026-09-05T21:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/75748097.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/87379114.m3u8"
+      }
+    ]
   },
 
   {
@@ -182,7 +191,16 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/54/Leeds_United_F.C._logo.svg",
     kickoff: "2026-09-05T21:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/02456966.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/14707124.m3u8"
+      }
+    ]
   },
 
   {
@@ -192,9 +210,18 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "CRYSTAL PALACE",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Fulham_FC_%28shield%29.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/a/a2/Crystal_Palace_FC_logo.svg",
-    kickoff: "2026-09-05T21:30:00+06:30",
+    kickoff: "2026-09-05T20:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/90865415.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/97885009.m3u8"
+      }
+    ]
   },
 
   {
@@ -206,7 +233,28 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1a/Coventry_City_FC_logo.svg",
     kickoff: "2026-09-05T21:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/78905744.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/14830711.m3u8"
+      },
+      {
+        label: "HD-3",
+        url: "https://live05.meung.app/live/82054853.m3u8"
+      },
+      {
+        label: "CHD",
+        url: "https://pull.qjkngv.com/live/stream-551893_lhd.m3u8?auth_key=1788619963-0-0-3a4fe300332741f0f6624405693fa92a"
+      },
+      {
+        label: "CSD",
+        url: "https://pull.qjkngv.com/live/stream-551893_lsd.m3u8?auth_key=1788619963-0-0-9e01313ab88d57b7ef8ab650561777b6"
+      }
+    ]
   },
 
   {
