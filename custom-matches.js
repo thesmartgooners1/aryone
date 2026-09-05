@@ -10,18 +10,9 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-05T01:35:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "FHD",
-        url: "https://hls.lauthaitv.cc/live/psg-monaco-ligue1/index.m3u8"
-      },
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/02456966.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/97885009.m3u8"
-      }
+      { label: "FHD", url: "https://hls.lauthaitv.cc/live/psg-monaco-ligue1/index.m3u8" },
+      { label: "HD", url: "https://live05.meung.app/live/02456966.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/97885009.m3u8" }
     ]
   },
 
@@ -35,22 +26,10 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-05T01:30:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "FHD",
-        url: "https://hls.lauthaitv.cc/live/betis-madrid-laliga/index.m3u8"
-      },
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/08552895.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/33982309.m3u8"
-      },
-      {
-        label: "HD-3",
-        url: "https://live05.meung.app/live/14707124.m3u8"
-      }
+      { label: "FHD", url: "https://hls.lauthaitv.cc/live/betis-madrid-laliga/index.m3u8" },
+      { label: "HD", url: "https://live05.meung.app/live/08552895.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/33982309.m3u8" },
+      { label: "HD-3", url: "https://live05.meung.app/live/14707124.m3u8" }
     ]
   },
 
@@ -64,38 +43,14 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-05T01:30:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/78905744.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/14830711.m3u8"
-      },
-      {
-        label: "HD-3",
-        url: "https://live05.meung.app/live/82054853.m3u8"
-      },
-      {
-        label: "Chinese HD",
-        url: "https://hwyypull.ncctrials.com/live/stream-557437_lhd.m3u8?auth_key=1788550719-0-0-2e981fea8dfe78b54d8228b68b1c10ca"
-      },
-      {
-        label: "Chinese HD-2",
-        url: "https://hwyypull.ncctrials.com/live/stream-500894_lhd.m3u8?auth_key=1788550719-0-0-cbcf058ff9c3b0e418a00dc9ddbe4a6e"
-      },
-      {
-        label: "Chinese SD",
-        url: "https://hwyypull.ncctrials.com/live/stream-557437_lsd.m3u8?auth_key=1788550719-0-0-10a202119cad2cbceac776562f2cc193"
-      },
-      {
-        label: "Chinese SD-2",
-        url: "https://hwyypull.ncctrials.com/live/stream-500894_lsd.m3u8?auth_key=1788550719-0-0-48f8bda86d2bbbf510b50f079a1dc2a4"
-      },
-      {
-        label: "FHD",
-        url: "https://hls.lauthaitv.cc/live/ips-liv-prem/index.m3u8"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/78905744.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/14830711.m3u8" },
+      { label: "HD-3", url: "https://live05.meung.app/live/82054853.m3u8" },
+      { label: "Chinese HD", url: "https://hwyypull.ncctrials.com/live/stream-557437_lhd.m3u8?auth_key=1788550719-0-0-2e981fea8dfe78b54d8228b68b1c10ca" },
+      { label: "Chinese HD-2", url: "https://hwyypull.ncctrials.com/live/stream-500894_lhd.m3u8?auth_key=1788550719-0-0-cbcf058ff9c3b0e418a00dc9ddbe4a6e" },
+      { label: "Chinese SD", url: "https://hwyypull.ncctrials.com/live/stream-557437_lsd.m3u8?auth_key=1788550719-0-0-10a202119cad2cbceac776562f2cc193" },
+      { label: "Chinese SD-2", url: "https://hwyypull.ncctrials.com/live/stream-500894_lsd.m3u8?auth_key=1788550719-0-0-48f8bda86d2bbbf510b50f079a1dc2a4" },
+      { label: "FHD", url: "https://hls.lauthaitv.cc/live/ips-liv-prem/index.m3u8" }
     ]
   },
 
@@ -109,14 +64,8 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-05T01:15:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/41943555.m3u8"
-      },
-      {
-        label: "Test",
-        url: "https://hwyypull.ncctrials.com/live/stream-526298_lhd.m3u8?auth_key=1788550359-0-0-046c1ad83e068dcdc595db1ed8267040"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/41943555.m3u8" },
+      { label: "Test", url: "https://hwyypull.ncctrials.com/live/stream-526298_lhd.m3u8?auth_key=1788550359-0-0-046c1ad83e068dcdc595db1ed8267040" }
     ]
   },
 
@@ -130,34 +79,13 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-05T19:00:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/33982309.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/08552895.m3u8"
-      },
-      {
-        label: "HD-3",
-        url: "https://live05.meung.app/live/78905744.m3u8"
-      },
-      {
-        label: "HD-4",
-        url: "https://live05.meung.app/live/14830711.m3u8"
-      },
-      {
-        label: "Chinese HD",
-        url: "https://hwyypull.ncctrials.com/live/stream-9995127_lhd.m3u8?auth_key=1788610843-0-0-1bcd66c200ac8294282f2cf8fae73a13"
-      },
-      {
-        label: "Chinese SD",
-        url: "https://hwyypull.ncctrials.com/live/stream-9995127_lsd.m3u8?auth_key=1788610843-0-0-6aa6c4ed62c9b8c45ab007cc87927055"
-      },
-      {
-        label: "FHD",
-        url: "https://hls.lauthaitv.cc/live/new-bou-prem/index.m3u8"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/33982309.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/08552895.m3u8" },
+      { label: "HD-3", url: "https://live05.meung.app/live/78905744.m3u8" },
+      { label: "HD-4", url: "https://live05.meung.app/live/14830711.m3u8" },
+      { label: "Chinese HD", url: "https://hwyypull.ncctrials.com/live/stream-9995127_lhd.m3u8?auth_key=1788610843-0-0-1bcd66c200ac8294282f2cf8fae73a13" },
+      { label: "Chinese SD", url: "https://hwyypull.ncctrials.com/live/stream-9995127_lsd.m3u8?auth_key=1788610843-0-0-6aa6c4ed62c9b8c45ab007cc87927055" },
+      { label: "FHD", url: "https://hls.lauthaitv.cc/live/new-bou-prem/index.m3u8" }
     ]
   },
 
@@ -171,14 +99,8 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-05T21:30:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/75748097.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/87379114.m3u8"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/75748097.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/87379114.m3u8" }
     ]
   },
 
@@ -192,14 +114,8 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-05T21:30:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/02456966.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/14707124.m3u8"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/02456966.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/14707124.m3u8" }
     ]
   },
 
@@ -213,14 +129,8 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-05T20:30:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/90865415.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/97885009.m3u8"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/90865415.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/97885009.m3u8" }
     ]
   },
 
@@ -234,26 +144,11 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-05T21:30:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/78905744.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/14830711.m3u8"
-      },
-      {
-        label: "HD-3",
-        url: "https://live05.meung.app/live/82054853.m3u8"
-      },
-      {
-        label: "CHD",
-        url: "https://pull.qjkngv.com/live/stream-551893_lhd.m3u8?auth_key=1788619963-0-0-3a4fe300332741f0f6624405693fa92a"
-      },
-      {
-        label: "CSD",
-        url: "https://pull.qjkngv.com/live/stream-551893_lsd.m3u8?auth_key=1788619963-0-0-9e01313ab88d57b7ef8ab650561777b6"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/78905744.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/14830711.m3u8" },
+      { label: "HD-3", url: "https://live05.meung.app/live/82054853.m3u8" },
+      { label: "CHD", url: "https://pull.qjkngv.com/live/stream-551893_lhd.m3u8?auth_key=1788619963-0-0-3a4fe300332741f0f6624405693fa92a" },
+      { label: "CSD", url: "https://pull.qjkngv.com/live/stream-551893_lsd.m3u8?auth_key=1788619963-0-0-9e01313ab88d57b7ef8ab650561777b6" }
     ]
   },
 
@@ -348,9 +243,13 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "NAPOLI",
     homeLogo: "https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/SSC_Napoli.svg",
-    kickoff: "2026-09-05T22:30:00+06:30",
+    kickoff: "2026-09-05T23:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      { label: "HD", url: "https://live05.meung.app/live/02456966.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/87379114.m3u8" },
+      { label: "HD-3", url: "https://live2.domaincdn.cc/livecdn/channel-18.m3u8?auth_key=3000001788615076-0-0-a91aeb14fc3de933bf0b747aabb0144b" }
+    ]
   },
 
   {
