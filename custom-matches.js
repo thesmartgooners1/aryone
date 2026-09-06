@@ -34,7 +34,17 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
     kickoff: "2026-09-06T22:00:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      { label: "HD", url: "https://live05.meung.app/live/78905744.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/33982309.m3u8" },
+      { label: "HD-3", url: "https://live05.meung.app/live/08552895.m3u8" },
+      { label: "HD-4", url: "https://live05.meung.app/live/14830711.m3u8" },
+      { label: "Chinese HD", url: "https://hwyypull.ncctrials.com/live/stream-613431_lhd.m3u8?auth_key=1788711522-0-0-d483f7f757f9fd0c3ab1c6b961457202" },
+      { label: "Chinese SD", url: "https://hwyypull.ncctrials.com/live/stream-613431_lsd.m3u8?auth_key=1788711522-0-0-29b99dd816ee2d9b3d24288af6c35b8e" },
+      { label: "Chinese HD-2", url: "https://hwyypull.ncctrials.com/live/stream-746673_lhd.m3u8?auth_key=1788711523-0-0-ba8664d54cd297b2ec8f57b94b1ebe25" },
+      { label: "Chinese SD-2", url: "https://hwyypull.ncctrials.com/live/stream-746673_lsd.m3u8?auth_key=1788711523-0-0-d80dc0a52695496bc9adaab155dc658c" },
+      { label: "FHD", url: "https://hls.lauthaitv.cc/live/ars-che-prem/index.m3u8" }
+    ]
   },
 
 
@@ -176,7 +186,9 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/7a/FC_Augsburg_logo.svg",
     kickoff: "2026-09-06T22:00:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      { label: "HD", url: "https://live05.meung.app/live/19919577.m3u8" }
+    ]
   },
 
 
@@ -205,7 +217,9 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/9/9e/Stade_Rennais_FC.svg",
     kickoff: "2026-09-06T21:45:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      { label: "HD", url: "https://live05.meung.app/live/75915087.m3u8" }
+    ]
   },
 
   {
