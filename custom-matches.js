@@ -51,7 +51,10 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
     kickoff: "2026-09-06T20:45:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      { label: "HD", url: "https://live05.meung.app/live/75748097.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/02456966.m3u8" }
+    ]
   },
 
   {
