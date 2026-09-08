@@ -10,10 +10,14 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/53/AEK_FC_crest.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/7b/LASK_Linz_logo.svg",
 
-    kickoff: "2026-09-08T22:15:00+06:30",
+    kickoff: "2026-09-08T23:15:00+06:30",
     status: "auto",
 
     streams: [
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/aek-lask-c12/index.m3u8"
+      },
       {
         label: "HD",
         url: "https://live05.meung.app/live/02456966.m3u8"
@@ -21,10 +25,6 @@ window.ARYONE_FOOTBALL_MATCHES = [
       {
         label: "HD-2",
         url: "https://live05.meung.app/live/97885009.m3u8"
-      },
-      {
-        label: "FHD",
-        url: "https://hls.lauthaitv.cc/live/aek-lask-c12/index.m3u8"
       }
     ]
   },
@@ -38,10 +38,14 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/d/d0/Club_Brugge_KV_logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/f9/Aston_Villa_FC_new_crest.svg",
 
-    kickoff: "2026-09-09T00:15:00+06:30",
+    kickoff: "2026-09-08T23:15:00+06:30",
     status: "auto",
 
     streams: [
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/brugge-aston-ucl2/index.m3u8"
+      },
       {
         label: "HD",
         url: "https://live05.meung.app/live/08552895.m3u8"
@@ -52,11 +56,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
       },
       {
         label: "HD-3",
-        url: "https://live05.meung.app/live/90865415.m3u8"
-      },
-      {
-        label: "FHD",
-        url: "https://hls.lauthaitv.cc/live/brugge-aston-ucl2/index.m3u8"
+        url: "https://live05.meung.app/live/33982309.m3u8"
       }
     ]
   },
@@ -70,7 +70,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/70/Villarreal_CF_logo.svg",
 
-    kickoff: "2026-09-09T02:30:00+06:30",
+    kickoff: "2026-09-09T01:30:00+06:30",
     status: "auto",
 
     streams: []
@@ -85,7 +85,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/f/f1/FC_Porto.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
 
-    kickoff: "2026-09-09T02:30:00+06:30",
+    kickoff: "2026-09-09T01:30:00+06:30",
     status: "auto",
 
     streams: []
@@ -100,7 +100,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3f/Lille_OSC_2018_logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/13/Real_betis_logo.svg",
 
-    kickoff: "2026-09-09T02:30:00+06:30",
+    kickoff: "2026-09-09T01:30:00+06:30",
     status: "auto",
 
     streams: []
@@ -115,7 +115,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg",
 
-    kickoff: "2026-09-09T02:30:00+06:30",
+    kickoff: "2026-09-09T01:30:00+06:30",
     status: "auto",
 
     streams: []
@@ -130,7 +130,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/8/8d/Feyenoord_logo.svg",
 
-    kickoff: "2026-09-09T22:15:00+06:30",
+    kickoff: "2026-09-09T23:15:00+06:30",
     status: "auto",
 
     streams: []
@@ -145,7 +145,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     homeLogo: "https://upload.wikimedia.org/wikipedia/commons/e/eb/VfB_Stuttgart_1893_Logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/4/4c/Viking_FK_logo.svg",
 
-    kickoff: "2026-09-09T22:15:00+06:30",
+    kickoff: "2026-09-09T23:15:00+06:30",
     status: "auto",
 
     streams: []
