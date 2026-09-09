@@ -27,6 +27,18 @@ window.ARYONE_FOOTBALL_MATCHES = [
       {
         label: "FHD",
         url: "https://hls.lauthaitv.cc/live/barce-feye-c1/index.m3u8"
+      },
+      {
+        label: "FHD-2",
+        url: "https://live1.quickscoreboardz.com/live/channel24.m3u8?wsSecret=525c75f5bde9363f913c6581e63aa4ff&wsABSTime=1789013815"
+      },
+      {
+        label: "VIP",
+        url: "https://play.aarray.cn/rrty/hd-zh-1-4628394_gqzm.m3u8?auth_key=1788975424-0-0-a1c63e3ce2d2d8c6d7507dc2c6a213ad&token=2e3a3f6e9828b895&device=4&platform=rrty"
+      },
+      {
+        label: "Soco",
+        url: "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=64afcc6fff438c35e8db4b9ea380ca6b&txTime=6aa1c69e"
       }
     ]
   },
