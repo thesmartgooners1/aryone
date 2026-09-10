@@ -14,7 +14,24 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg",
     kickoff: "2026-09-10T23:15:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/08552895.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/78905744.m3u8"
+      },
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/fener-roma-c1/index.m3u8"
+      },
+      {
+        label: "FHD-2",
+        url: "https://live1.quickscoreboardz.com/live/channel11/playlist.m3u8?wsSecret=4c0520c3a63fd9bfb3aa10971177302f&wsABSTime=1789100902"
+      }
+    ]
   },
 
   {
@@ -26,7 +43,28 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/74/FC_Shakhtar_Donetsk.svg",
     kickoff: "2026-09-10T23:15:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/33982309.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/97885009.m3u8"
+      },
+      {
+        label: "HD-3",
+        url: "https://live05.meung.app/live/14830711.m3u8"
+      },
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/psv-shakhtar-c1/index.m3u8"
+      },
+      {
+        label: "FHD-2",
+        url: "https://live1.quickscoreboardz.com/live/channel6/playlist.m3u8?wsSecret=df0c56ab033c53845aeaf3ef8a70b3a3&wsABSTime=1789100720"
+      }
+    ]
   },
 
   {
