@@ -3,9 +3,8 @@ window.ARYONE_FOOTBALL_MATCHES = [
 
   // =========================================================
   // TODAY — SEPTEMBER 12, 2026
+  // ALL KICKOFF TIMES ARE MMT (UTC+06:30)
   // =========================================================
-
-  // ---------------- EPL ----------------
 
   {
     id: "epl-01",
@@ -16,7 +15,12 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/e5/Nottingham_Forest_F.C._logo.svg",
     kickoff: "2026-09-12T20:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/ast-nott-prem/index.m3u8"
+      }
+    ]
   },
 
   {
@@ -28,7 +32,16 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/2/2a/Brentford_FC_crest.svg",
     kickoff: "2026-09-12T20:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/78905744.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/87379114.m3u8"
+      }
+    ]
   },
 
   {
@@ -37,10 +50,19 @@ window.ARYONE_FOOTBALL_MATCHES = [
     home: "CHELSEA",
     away: "HULL CITY",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/54/Hull_City_A.F.C._logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/54/Hull_City_AFC_logo.svg",
     kickoff: "2026-09-12T20:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/08552895.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/33982309.m3u8"
+      }
+    ]
   },
 
   {
@@ -52,7 +74,16 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/4/43/Ipswich_Town.svg",
     kickoff: "2026-09-12T20:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/75748097.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/97885009.m3u8"
+      }
+    ]
   },
 
   {
@@ -64,13 +95,22 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Fulham_FC_%28shield%29.svg",
     kickoff: "2026-09-12T20:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/90865415.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/14830711.m3u8"
+      }
+    ]
   },
 
   {
     id: "epl-06",
     league: "ENGLAND PREMIER LEAGUE",
-    home: "TOTTENHAM HOTSPUR",
+    home: "TOTTENHAM",
     away: "EVERTON",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg",
@@ -84,89 +124,9 @@ window.ARYONE_FOOTBALL_MATCHES = [
     league: "ENGLAND PREMIER LEAGUE",
     home: "SUNDERLAND",
     away: "ARSENAL",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/77/Sunderland_AFC_logo.svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/7a/Sunderland_AFC_logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
     kickoff: "2026-09-13T01:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  // ---------------- LALIGA BIG TEAMS ----------------
-
-  {
-    id: "laliga-01",
-    league: "SPANISH LALIGA",
-    home: "REAL MADRID",
-    away: "RAYO VALLECANO",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1c/Rayo_Vallecano_logo.svg",
-    kickoff: "2026-09-13T01:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  // ---------------- SERIE A BIG TEAMS ----------------
-
-  {
-    id: "seriea-01",
-    league: "ITALIAN SERIE A",
-    home: "LAZIO",
-    away: "AC MILAN",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/c/ce/S.S._Lazio_badge.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
-    kickoff: "2026-09-12T22:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  // ---------------- BUNDESLIGA BIG TEAMS ----------------
-
-  {
-    id: "bundesliga-01",
-    league: "GERMAN BUNDESLIGA",
-    home: "BORUSSIA DORTMUND",
-    away: "PADERBORN",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/9/96/SC_Paderborn_07_logo.svg",
-    kickoff: "2026-09-12T20:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  {
-    id: "bundesliga-02",
-    league: "GERMAN BUNDESLIGA",
-    home: "AUGSBURG",
-    away: "BAYER LEVERKUSEN",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/c/c5/FC_Augsburg_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg",
-    kickoff: "2026-09-12T20:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  // ---------------- LIGUE 1 BIG TEAMS ----------------
-
-  {
-    id: "ligue1-01",
-    league: "FRENCH LIGUE 1",
-    home: "STRASBOURG",
-    away: "MONACO",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/8/8f/Racing_Club_de_Strasbourg_Alsace_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/b/ba/AS_Monaco_FC.svg",
-    kickoff: "2026-09-12T21:45:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  {
-    id: "ligue1-02",
-    league: "FRENCH LIGUE 1",
-    home: "PARIS FC",
-    away: "LYON",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/75/Paris_FC_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/c/c6/Olympique_Lyonnais.svg",
-    kickoff: "2026-09-13T01:15:00+06:30",
     status: "auto",
     streams: []
   },
@@ -176,15 +136,13 @@ window.ARYONE_FOOTBALL_MATCHES = [
   // TOMORROW — SEPTEMBER 13, 2026
   // =========================================================
 
-  // ---------------- EPL ----------------
-
   {
     id: "epl-08",
     league: "ENGLAND PREMIER LEAGUE",
     home: "COVENTRY CITY",
     away: "BRIGHTON",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3d/Coventry_City_FC_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_%26_Hove_Albion_logo.svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/9/9c/Coventry_City_FC_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_and_Hove_Albion_FC_crest.svg",
     kickoff: "2026-09-13T19:30:00+06:30",
     status: "auto",
     streams: []
@@ -202,14 +160,95 @@ window.ARYONE_FOOTBALL_MATCHES = [
     streams: []
   },
 
-  // ---------------- LALIGA BIG TEAMS ----------------
+
+  // =========================================================
+  // EUROPE — SEPTEMBER 12, 2026
+  // BIG TEAMS
+  // =========================================================
+
+  {
+    id: "laliga-01",
+    league: "SPANISH LALIGA",
+    home: "REAL MADRID",
+    away: "RAYO VALLECANO",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/Rayo_Vallecano_logo.svg",
+    kickoff: "2026-09-13T01:30:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "seriea-01",
+    league: "ITALIAN SERIE A",
+    home: "LAZIO",
+    away: "AC MILAN",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/c/ce/S.S._Lazio_badge.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
+    kickoff: "2026-09-12T22:30:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "bundesliga-01",
+    league: "GERMAN BUNDESLIGA",
+    home: "BORUSSIA DORTMUND",
+    away: "PADERBORN",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/commons/6/67/Borussia_Dortmund_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1c/SC_Paderborn_07_logo.svg",
+    kickoff: "2026-09-12T20:00:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "bundesliga-02",
+    league: "GERMAN BUNDESLIGA",
+    home: "AUGSBURG",
+    away: "BAYER LEVERKUSEN",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Augsburg_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/59/Bayer_04_Leverkusen_logo.svg",
+    kickoff: "2026-09-12T20:00:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "ligue1-01",
+    league: "FRENCH LIGUE 1",
+    home: "STRASBOURG",
+    away: "MONACO",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/8/8c/RC_Strasbourg_Alsace_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/b/ba/AS_Monaco_FC.svg",
+    kickoff: "2026-09-12T21:45:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "ligue1-02",
+    league: "FRENCH LIGUE 1",
+    home: "PARIS FC",
+    away: "LYON",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/1/1b/Paris_FC_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/e2/Olympique_Lyonnais.svg",
+    kickoff: "2026-09-13T01:15:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+
+  // =========================================================
+  // EUROPE — SEPTEMBER 13, 2026
+  // =========================================================
 
   {
     id: "laliga-02",
     league: "SPANISH LALIGA",
     home: "LEVANTE",
     away: "BARCELONA",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/0/00/Levante_UD_crest.svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/6/6c/Levante_UD_logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
     kickoff: "2026-09-13T20:45:00+06:30",
     status: "auto",
@@ -228,15 +267,13 @@ window.ARYONE_FOOTBALL_MATCHES = [
     streams: []
   },
 
-  // ---------------- SERIE A BIG TEAMS ----------------
-
   {
     id: "seriea-02",
     league: "ITALIAN SERIE A",
     home: "NAPOLI",
     away: "BOLOGNA",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/SSC_Napoli.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/5b/Bologna_F.C._1909_logo.svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/SSC_Napoli_2024.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/5a/Bologna_F.C._1909_logo.svg",
     kickoff: "2026-09-13T22:30:00+06:30",
     status: "auto",
     streams: []
@@ -254,8 +291,6 @@ window.ARYONE_FOOTBALL_MATCHES = [
     streams: []
   },
 
-  // ---------------- BUNDESLIGA BIG TEAMS ----------------
-
   {
     id: "bundesliga-03",
     league: "GERMAN BUNDESLIGA",
@@ -263,7 +298,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "HAMBURG",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/0/04/RB_Leipzig_2014_logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/commons/6/66/HSV-Logo.svg",
-    kickoff: "2026-09-13T20:30:00+06:30",
+    kickoff: "2026-09-13T20:00:00+06:30",
     status: "auto",
     streams: []
   },
@@ -273,22 +308,20 @@ window.ARYONE_FOOTBALL_MATCHES = [
     league: "GERMAN BUNDESLIGA",
     home: "ELVERSBERG",
     away: "BAYERN MUNICH",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/4/4b/SV_07_Elversberg_logo.svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/7a/SV_Elversberg_Logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg",
-    kickoff: "2026-09-13T22:30:00+06:30",
+    kickoff: "2026-09-13T22:00:00+06:30",
     status: "auto",
     streams: []
   },
-
-  // ---------------- LIGUE 1 BIG TEAMS ----------------
 
   {
     id: "ligue1-03",
     league: "FRENCH LIGUE 1",
     home: "LILLE",
     away: "TROYES",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/6/62/Lille_OSC_2018_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/4/4c/ES_Troyes_AC_logo.svg",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3f/Lille_OSC_2018_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/9/9f/ES_Troyes_AC_logo.svg",
     kickoff: "2026-09-13T19:30:00+06:30",
     status: "auto",
     streams: []
@@ -298,8 +331,8 @@ window.ARYONE_FOOTBALL_MATCHES = [
     id: "ligue1-04",
     league: "FRENCH LIGUE 1",
     home: "BREST",
-    away: "PARIS SAINT-GERMAIN",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/1/16/Stade_Brestois_29_logo.svg",
+    away: "PSG",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3d/Stade_Brestois_29_logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
     kickoff: "2026-09-14T01:15:00+06:30",
     status: "auto",
