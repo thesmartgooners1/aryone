@@ -131,65 +131,6 @@ window.ARYONE_FOOTBALL_MATCHES = [
     streams: []
   },
 
-
-  // =========================================================
-  // TOMORROW — SEPTEMBER 13, 2026
-  // =========================================================
-
-  {
-    id: "epl-08",
-    league: "ENGLAND PREMIER LEAGUE",
-    home: "COVENTRY CITY",
-    away: "BRIGHTON",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/9/9c/Coventry_City_FC_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_and_Hove_Albion_FC_crest.svg",
-    kickoff: "2026-09-13T19:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  {
-    id: "epl-09",
-    league: "ENGLAND PREMIER LEAGUE",
-    home: "MANCHESTER UNITED",
-    away: "MANCHESTER CITY",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
-    kickoff: "2026-09-13T22:00:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-
-  // =========================================================
-  // EUROPE — SEPTEMBER 12, 2026
-  // BIG TEAMS
-  // =========================================================
-
-  {
-    id: "laliga-01",
-    league: "SPANISH LALIGA",
-    home: "REAL MADRID",
-    away: "RAYO VALLECANO",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/Rayo_Vallecano_logo.svg",
-    kickoff: "2026-09-13T01:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  {
-    id: "seriea-01",
-    league: "ITALIAN SERIE A",
-    home: "LAZIO",
-    away: "AC MILAN",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/c/ce/S.S._Lazio_badge.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
-    kickoff: "2026-09-12T22:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
   {
     id: "bundesliga-01",
     league: "GERMAN BUNDESLIGA",
@@ -199,7 +140,12 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1c/SC_Paderborn_07_logo.svg",
     kickoff: "2026-09-12T20:00:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/87547578.m3u8"
+      }
+    ]
   },
 
   {
@@ -238,10 +184,58 @@ window.ARYONE_FOOTBALL_MATCHES = [
     streams: []
   },
 
+  {
+    id: "laliga-01",
+    league: "SPANISH LALIGA",
+    home: "REAL MADRID",
+    away: "RAYO VALLECANO",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/Rayo_Vallecano_logo.svg",
+    kickoff: "2026-09-13T01:30:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "seriea-01",
+    league: "ITALIAN SERIE A",
+    home: "LAZIO",
+    away: "AC MILAN",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/c/ce/S.S._Lazio_badge.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
+    kickoff: "2026-09-12T22:30:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
 
   // =========================================================
-  // EUROPE — SEPTEMBER 13, 2026
+  // TOMORROW — SEPTEMBER 13, 2026
   // =========================================================
+
+  {
+    id: "epl-08",
+    league: "ENGLAND PREMIER LEAGUE",
+    home: "COVENTRY CITY",
+    away: "BRIGHTON",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/9/9c/Coventry_City_FC_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_and_Hove_Albion_FC_crest.svg",
+    kickoff: "2026-09-13T19:30:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "epl-09",
+    league: "ENGLAND PREMIER LEAGUE",
+    home: "MANCHESTER UNITED",
+    away: "MANCHESTER CITY",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+    kickoff: "2026-09-13T22:00:00+06:30",
+    status: "auto",
+    streams: []
+  },
 
   {
     id: "laliga-02",
