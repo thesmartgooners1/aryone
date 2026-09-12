@@ -2,7 +2,7 @@
 window.ARYONE_FOOTBALL_MATCHES = [
 
   // =========================================================
-  // TODAY — SEPTEMBER 12, 2026
+  // SEPTEMBER 12, 2026
   // ALL KICKOFF TIMES ARE MMT (UTC+06:30)
   // =========================================================
 
@@ -16,10 +16,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-12T20:30:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "FHD",
-        url: "https://hls.lauthaitv.cc/live/ast-nott-prem/index.m3u8"
-      }
+      { label: "FHD", url: "https://hls.lauthaitv.cc/live/ast-nott-prem/index.m3u8" }
     ]
   },
 
@@ -33,14 +30,8 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-12T20:30:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/78905744.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/87379114.m3u8"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/78905744.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/87379114.m3u8" }
     ]
   },
 
@@ -54,14 +45,8 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-12T20:30:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/08552895.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/33982309.m3u8"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/08552895.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/33982309.m3u8" }
     ]
   },
 
@@ -75,14 +60,8 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-12T20:30:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/75748097.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/97885009.m3u8"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/75748097.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/97885009.m3u8" }
     ]
   },
 
@@ -96,14 +75,8 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-12T20:30:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/90865415.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/14830711.m3u8"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/90865415.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/14830711.m3u8" }
     ]
   },
 
@@ -117,47 +90,33 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-12T23:00:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/08552895.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/78905744.m3u8"
-      },
-      {
-        label: "HD-3",
-        url: "https://live05.meung.app/live/33982309.m3u8"
-      },
-      {
-        label: "FHD",
-        url: "https://hls.lauthaitv.cc/live/tot-eve-prem/index.m3u8"
-      },
-      {
-        label: "FHD-2",
-        url: "https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001789229890-0-0-7b34d9c5c0d91d4e7cbb6c1e9b36db00"
-      },
-      {
-        label: "FHD-3",
-        url: "https://live2.domaincdn.cc/livecdn/channel-11.m3u8?auth_key=3000001789229911-0-0-feb3194877d9f9888470d3d5e847ae7d"
-      },
-      {
-        label: "FHD-4",
-        url: "https://live2.domaincdn.cc/livecdn/channel-19.m3u8?auth_key=3000001789229923-0-0-0fa1b2224950ebd552be9c7821bfdb4c"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/08552895.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/78905744.m3u8" },
+      { label: "HD-3", url: "https://live05.meung.app/live/33982309.m3u8" },
+      { label: "FHD", url: "https://hls.lauthaitv.cc/live/tot-eve-prem/index.m3u8" },
+      { label: "FHD-2", url: "https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001789229890-0-0-7b34d9c5c0d91d4e7cbb6c1e9b36db00" },
+      { label: "FHD-3", url: "https://live2.domaincdn.cc/livecdn/channel-11.m3u8?auth_key=3000001789229911-0-0-feb3194877d9f9888470d3d5e847ae7d" },
+      { label: "FHD-4", url: "https://live2.domaincdn.cc/livecdn/channel-19.m3u8?auth_key=3000001789229923-0-0-0fa1b2224950ebd552be9c7821bfdb4c" }
     ]
   },
 
   {
     id: "epl-07",
     league: "ENGLAND PREMIER LEAGUE",
-    home: "SUNDERLAND",
+    home: "SUNDERLAND FC",
     away: "ARSENAL",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/7a/Sunderland_AFC_logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
     kickoff: "2026-09-13T01:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      { label: "HD", url: "https://live05.meung.app/live/87379114.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/97885009.m3u8" },
+      { label: "FHD", url: "https://hls.lauthaitv.cc/live/sun-ars-prem/index.m3u8" },
+      { label: "FHD-2", url: "https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001789238648-0-0-ac1038217aa6474bb34b63b8ad938d92" },
+      { label: "FHD-3", url: "https://live2.domaincdn.cc/livecdn/channel-15.m3u8?auth_key=3000001789238660-0-0-ce23fb4bee4de35f482dddbf8ceaddad" },
+      { label: "FHD-4", url: "https://live1.quickscoreboardz.com/live/channel16/playlist.m3u8?wsSecret=899cf4aad699f11a97084c9b793cc686&wsABSTime=1789281871" }
+    ]
   },
 
   // =========================================================
@@ -174,10 +133,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-12T20:00:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/87547578.m3u8"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/87547578.m3u8" }
     ]
   },
 
@@ -234,7 +190,11 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/Rayo_Vallecano_logo.svg",
     kickoff: "2026-09-13T01:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      { label: "HD", url: "https://live05.meung.app/live/08552895.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/78905744.m3u8" },
+      { label: "HD-3", url: "https://live05.meung.app/live/33982309.m3u8" }
+    ]
   },
 
   // =========================================================
@@ -251,19 +211,13 @@ window.ARYONE_FOOTBALL_MATCHES = [
     kickoff: "2026-09-12T22:30:00+06:30",
     status: "auto",
     streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/82054853.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/97885009.m3u8"
-      }
+      { label: "HD", url: "https://live05.meung.app/live/82054853.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/97885009.m3u8" }
     ]
   },
 
   // =========================================================
-  // TOMORROW — SEPTEMBER 13, 2026
+  // SEPTEMBER 13, 2026
   // =========================================================
 
   {
