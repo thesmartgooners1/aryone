@@ -131,6 +131,10 @@ window.ARYONE_FOOTBALL_MATCHES = [
     streams: []
   },
 
+  // =========================================================
+  // BUNDESLIGA
+  // =========================================================
+
   {
     id: "bundesliga-01",
     league: "GERMAN BUNDESLIGA",
@@ -160,6 +164,10 @@ window.ARYONE_FOOTBALL_MATCHES = [
     streams: []
   },
 
+  // =========================================================
+  // LIGUE 1
+  // =========================================================
+
   {
     id: "ligue1-01",
     league: "FRENCH LIGUE 1",
@@ -184,6 +192,10 @@ window.ARYONE_FOOTBALL_MATCHES = [
     streams: []
   },
 
+  // =========================================================
+  // LALIGA
+  // =========================================================
+
   {
     id: "laliga-01",
     league: "SPANISH LALIGA",
@@ -196,6 +208,10 @@ window.ARYONE_FOOTBALL_MATCHES = [
     streams: []
   },
 
+  // =========================================================
+  // SERIE A
+  // =========================================================
+
   {
     id: "seriea-01",
     league: "ITALIAN SERIE A",
@@ -205,7 +221,16 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg",
     kickoff: "2026-09-12T22:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/82054853.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/97885009.m3u8"
+      }
+    ]
   },
 
 
