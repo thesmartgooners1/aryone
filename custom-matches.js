@@ -116,7 +116,36 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg",
     kickoff: "2026-09-12T23:00:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/08552895.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/78905744.m3u8"
+      },
+      {
+        label: "HD-3",
+        url: "https://live05.meung.app/live/33982309.m3u8"
+      },
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/tot-eve-prem/index.m3u8"
+      },
+      {
+        label: "FHD-2",
+        url: "https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001789229890-0-0-7b34d9c5c0d91d4e7cbb6c1e9b36db00"
+      },
+      {
+        label: "FHD-3",
+        url: "https://live2.domaincdn.cc/livecdn/channel-11.m3u8?auth_key=3000001789229911-0-0-feb3194877d9f9888470d3d5e847ae7d"
+      },
+      {
+        label: "FHD-4",
+        url: "https://live2.domaincdn.cc/livecdn/channel-19.m3u8?auth_key=3000001789229923-0-0-0fa1b2224950ebd552be9c7821bfdb4c"
+      }
+    ]
   },
 
   {
@@ -232,7 +261,6 @@ window.ARYONE_FOOTBALL_MATCHES = [
       }
     ]
   },
-
 
   // =========================================================
   // TOMORROW — SEPTEMBER 13, 2026
