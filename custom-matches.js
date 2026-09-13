@@ -60,12 +60,90 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
     kickoff: "2026-09-13T22:00:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/08552895.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/78905744.m3u8"
+      },
+      {
+        label: "HD-3",
+        url: "https://live05.meung.app/live/33982309.m3u8"
+      },
+      {
+        label: "HD-4",
+        url: "https://live05.meung.app/live/14830711.m3u8"
+      },
+      {
+        label: "FHD",
+        url: "https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001789312062-0-0-4f2e072f26ee1ae31a31ffdd5d84d88f"
+      },
+      {
+        label: "FHD-2",
+        url: "https://live2.domaincdn.cc/livecdn/channel-5.m3u8?auth_key=3000001789312074-0-0-05a8dabb4b6388b1e4200b28f42b39ed"
+      },
+      {
+        label: "FHD-3",
+        url: "https://live1.quickscoreboardz.com/live/channel6/playlist.m3u8?wsSecret=299b2a4372168ab0f97dfcc7416cddff&wsABSTime=1789355308"
+      },
+      {
+        label: "FHD-4",
+        url: "https://live2.domaincdn.cc/livecdn/channel-11.m3u8?auth_key=3000001789312125-0-0-6640382a88876fc3059a31dd395e90ca"
+      },
+      {
+        label: "FHD-5",
+        url: "https://live2.domaincdn.cc/livecdn/channel-16.m3u8?auth_key=3000001789312142-0-0-a315fa6709534d455c03d6a54d62ea5a"
+      },
+      {
+        label: "FHD-6",
+        url: "https://live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=39b0834b7e355c967732b1bbd23ff83a&wsABSTime=1789355356"
+      },
+      {
+        label: "FHD-7",
+        url: "https://live1.quickscoreboardz.com/live/channel15/playlist.m3u8?wsSecret=9b44da351136bad96257d556a2992dff&wsABSTime=1789355387"
+      },
+      {
+        label: "Soco",
+        url: "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=77267ec7ef019d73084946a7f77bd4d0&txTime=6aa6d683#skip"
+      },
+      {
+        label: "SD",
+        url: "https://pull.niur.live/live/stream-414317_lsd.m3u8?txSecret=cacd46d6edb13dbb5911b56763657913&txTime=6aa70cf2#skip"
+      }
+    ]
   },
 
   // =========================
   // SPANISH LALIGA
   // =========================
+
+  {
+    id: "laliga-01",
+    league: "SPANISH LALIGA",
+    home: "REAL MADRID",
+    away: "RAYO VALLECANO",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/Rayo_Vallecano_logo.svg",
+    kickoff: "2026-09-13T01:30:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/08552895.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/78905744.m3u8"
+      },
+      {
+        label: "HD-3",
+        url: "https://live05.meung.app/live/33982309.m3u8"
+      }
+    ]
+  },
 
   {
     id: "laliga-02",
@@ -153,7 +231,16 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg",
     kickoff: "2026-09-13T22:00:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/90865415.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/87379114.m3u8"
+      }
+    ]
   },
 
   // =========================
