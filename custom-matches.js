@@ -2,7 +2,7 @@
 window.ARYONE_FOOTBALL_MATCHES = [
 
   // =========================================================
-  // TODAY — SEPTEMBER 13, 2026
+  // SEPTEMBER 13–14, 2026
   // ALL KICKOFF TIMES ARE MMT (UTC+06:30)
   // =========================================================
 
@@ -121,31 +121,6 @@ window.ARYONE_FOOTBALL_MATCHES = [
   // =========================
 
   {
-    id: "laliga-01",
-    league: "SPANISH LALIGA",
-    home: "REAL MADRID",
-    away: "RAYO VALLECANO",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/Rayo_Vallecano_logo.svg",
-    kickoff: "2026-09-13T01:30:00+06:30",
-    status: "auto",
-    streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/08552895.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/78905744.m3u8"
-      },
-      {
-        label: "HD-3",
-        url: "https://live05.meung.app/live/33982309.m3u8"
-      }
-    ]
-  },
-
-  {
     id: "laliga-02",
     league: "SPANISH LALIGA",
     home: "LEVANTE",
@@ -175,7 +150,12 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg",
     kickoff: "2026-09-14T01:30:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/97885009.m3u8"
+      }
+    ]
   },
 
   // =========================
@@ -203,7 +183,16 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg",
     kickoff: "2026-09-14T01:15:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/90865415.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/33982309.m3u8"
+      }
+    ]
   },
 
   // =========================
@@ -268,16 +257,58 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
     kickoff: "2026-09-14T01:15:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/08552895.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/78905744.m3u8"
+      }
+    ]
   },
 
   // =========================================================
-  // TOMORROW — SEPTEMBER 14, 2026
+  // ADDITIONAL EPL MATCHES
   // =========================================================
 
-  // =========================
-  // ENGLAND PREMIER LEAGUE
-  // =========================
+  {
+    id: "epl-07",
+    league: "ENGLAND PREMIER LEAGUE",
+    home: "SUNDERLAND FC",
+    away: "ARSENAL",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/7a/Sunderland_AFC_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+    kickoff: "2026-09-13T01:30:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/87379114.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/97885009.m3u8"
+      },
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/sun-ars-prem/index.m3u8"
+      },
+      {
+        label: "FHD-2",
+        url: "https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001789238648-0-0-ac1038217aa6474bb34b63b8ad938d92"
+      },
+      {
+        label: "FHD-3",
+        url: "https://live2.domaincdn.cc/livecdn/channel-15.m3u8?auth_key=3000001789238660-0-0-ce23fb4bee4de35f482dddbf8ceaddad"
+      },
+      {
+        label: "FHD-4",
+        url: "https://live1.quickscoreboardz.com/live/channel16/playlist.m3u8?wsSecret=899cf4aad699f11a97084c9b793cc686&wsABSTime=1789281871"
+      }
+    ]
+  },
 
   {
     id: "epl-10",
@@ -292,8 +323,33 @@ window.ARYONE_FOOTBALL_MATCHES = [
   },
 
   // =========================
-  // SPANISH LALIGA
+  // ADDITIONAL LALIGA
   // =========================
+
+  {
+    id: "laliga-01",
+    league: "SPANISH LALIGA",
+    home: "REAL MADRID",
+    away: "RAYO VALLECANO",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/Rayo_Vallecano_logo.svg",
+    kickoff: "2026-09-13T01:30:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/08552895.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/78905744.m3u8"
+      },
+      {
+        label: "HD-3",
+        url: "https://live05.meung.app/live/33982309.m3u8"
+      }
+    ]
+  },
 
   {
     id: "laliga-04",
@@ -308,7 +364,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
   },
 
   // =========================
-  // ITALIAN SERIE A
+  // ADDITIONAL SERIE A
   // =========================
 
   {
