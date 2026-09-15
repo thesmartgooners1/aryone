@@ -2,113 +2,86 @@
 window.ARYONE_FOOTBALL_MATCHES = [
 
   // =========================================================
-  // SEPTEMBER 16, 2026
-  // EFL CUP + LA LIGA
-  // ALL KICKOFF TIMES ARE MMT (UTC+06:30)
+  // SEPTEMBER 16, 2026 — MYANMAR TIME (MMT / UTC+06:30)
+  // EFL CUP + SPANISH LALIGA
   // =========================================================
-
-
-  // =========================================================
-  // ENGLAND EFL CUP — ROUND 3
-  // =========================================================
-
-  {
-    id: "eflcup-01",
-    league: "ENGLAND EFL CUP",
-    home: "EVERTON",
-    away: "WOLVES",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/c/c9/Wolverhampton_Wanderers_FC_crest.svg",
-    kickoff: "2026-09-17T01:15:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  {
-    id: "eflcup-02",
-    league: "ENGLAND EFL CUP",
-    home: "FLEETWOOD TOWN",
-    away: "SHEFFIELD UNITED",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3c/Fleetwood_Town_FC_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/9/9c/Sheffield_United_FC_logo.svg",
-    kickoff: "2026-09-17T01:15:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  {
-    id: "eflcup-03",
-    league: "ENGLAND EFL CUP",
-    home: "COVENTRY CITY",
-    away: "ASTON VILLA",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/9/9c/Coventry_City_FC_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/f9/Aston_Villa_FC_new_crest.svg",
-    kickoff: "2026-09-17T01:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  {
-    id: "eflcup-04",
-    league: "ENGLAND EFL CUP",
-    home: "MANCHESTER UNITED",
-    away: "BRIGHTON",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_and_Hove_Albion_FC_crest.svg",
-    kickoff: "2026-09-17T01:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
 
   // =========================================================
   // SPANISH LALIGA
   // =========================================================
 
   {
-    id: "laliga-05",
+    id: "laliga-09",
     league: "SPANISH LALIGA",
-    home: "ATLETICO MADRID",
-    away: "OSASUNA",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/d/dc/Osasuna_logo.svg",
-    kickoff: "2026-09-16T23:30:00+06:30",
+    home: "DEPORTIVO ALAVES",
+    away: "VALENCIA",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3b/Deportivo_Alav%C3%A9s_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/c/ce/Valencia_CF_crest.svg",
+    kickoff: "2026-09-16T00:30:00+06:30",
     status: "auto",
     streams: []
   },
 
   {
-    id: "laliga-06",
+    id: "laliga-10",
     league: "SPANISH LALIGA",
-    home: "DEPORTIVO LA CORUNA",
-    away: "SEVILLA",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/8/8d/Deportivo_de_La_Coru%C3%B1a_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/3/3b/Sevilla_FC_logo.svg",
-    kickoff: "2026-09-16T23:30:00+06:30",
+    home: "ELCHE",
+    away: "REAL MADRID",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/0/00/Elche_CF_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+    kickoff: "2026-09-16T02:00:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  // =========================================================
+  // ENGLAND EFL CUP
+  // =========================================================
+
+  {
+    id: "eflcup-05",
+    league: "ENGLAND EFL CUP",
+    home: "WEST HAM",
+    away: "FULHAM",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/c/c2/West_Ham_United_FC_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Fulham_FC.svg",
+    kickoff: "2026-09-16T01:15:00+06:30",
     status: "auto",
     streams: []
   },
 
   {
-    id: "laliga-07",
-    league: "SPANISH LALIGA",
-    home: "BARCELONA",
-    away: "RACING SANTANDER",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/2/2a/Racing_Santander_logo.svg",
-    kickoff: "2026-09-17T02:00:00+06:30",
+    id: "eflcup-06",
+    league: "ENGLAND EFL CUP",
+    home: "IPSWICH TOWN",
+    away: "ARSENAL",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/4/43/Ipswich_Town.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
+    kickoff: "2026-09-16T01:30:00+06:30",
     status: "auto",
     streams: []
   },
 
   {
-    id: "laliga-08",
-    league: "SPANISH LALIGA",
-    home: "LEVANTE",
-    away: "ATHLETIC BILBAO",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/6/6c/Levante_UD_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
-    kickoff: "2026-09-17T02:00:00+06:30",
+    id: "eflcup-07",
+    league: "ENGLAND EFL CUP",
+    home: "LIVERPOOL",
+    away: "TOTTENHAM",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg",
+    kickoff: "2026-09-16T01:30:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "eflcup-08",
+    league: "ENGLAND EFL CUP",
+    home: "READING",
+    away: "BRENTFORD",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/1/11/Reading_FC.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/2/2a/Brentford_FC_crest.svg",
+    kickoff: "2026-09-16T01:30:00+06:30",
     status: "auto",
     streams: []
   }
