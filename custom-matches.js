@@ -2,403 +2,113 @@
 window.ARYONE_FOOTBALL_MATCHES = [
 
   // =========================================================
-  // SEPTEMBER 13–14, 2026
+  // SEPTEMBER 16, 2026
+  // EFL CUP + LA LIGA
   // ALL KICKOFF TIMES ARE MMT (UTC+06:30)
   // =========================================================
 
-  // =========================
-  // ENGLAND PREMIER LEAGUE
-  // =========================
+
+  // =========================================================
+  // ENGLAND EFL CUP — ROUND 3
+  // =========================================================
 
   {
-    id: "epl-08",
-    league: "ENGLAND PREMIER LEAGUE",
+    id: "eflcup-01",
+    league: "ENGLAND EFL CUP",
+    home: "EVERTON",
+    away: "WOLVES",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/7c/Everton_FC_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/c/c9/Wolverhampton_Wanderers_FC_crest.svg",
+    kickoff: "2026-09-17T01:15:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "eflcup-02",
+    league: "ENGLAND EFL CUP",
+    home: "FLEETWOOD TOWN",
+    away: "SHEFFIELD UNITED",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3c/Fleetwood_Town_FC_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/9/9c/Sheffield_United_FC_logo.svg",
+    kickoff: "2026-09-17T01:15:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "eflcup-03",
+    league: "ENGLAND EFL CUP",
     home: "COVENTRY CITY",
-    away: "BRIGHTON",
+    away: "ASTON VILLA",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/9/9c/Coventry_City_FC_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_and_Hove_Albion_FC_crest.svg",
-    kickoff: "2026-09-13T19:30:00+06:30",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/f9/Aston_Villa_FC_new_crest.svg",
+    kickoff: "2026-09-17T01:30:00+06:30",
     status: "auto",
-    streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/33982309.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/14830711.m3u8"
-      },
-      {
-        label: "HD-3",
-        url: "https://live05.meung.app/live/08552895.m3u8"
-      },
-      {
-        label: "English",
-        url: "https://live1.quickscoreboardz.com/live/channel21.m3u8?wsSecret=89bbb1aa7e3cb61532ba8cbe87587dc6&wsABSTime=1789346959"
-      },
-      {
-        label: "FHD",
-        url: "https://pull.niur.live/live/stream-9912041_lhd.m3u8?txSecret=f4cbe4e239fe8d76c4f5d681633591ac&txTime=6aa6ef6a#skip"
-      },
-      {
-        label: "FHD-2",
-        url: "https://live1.quickscoreboardz.com/live/channel21.m3u8?wsSecret=7ad630c672bcefe8489d029c70ae8d43&wsABSTime=1789345349"
-      },
-      {
-        label: "SD",
-        url: "https://pull.niur.live/live/stream-9912041_lsd.m3u8?txSecret=14049cdb5c737eb91d761fa5506d68e3&txTime=6aa6ef6a#skip"
-      }
-    ]
+    streams: []
   },
 
   {
-    id: "epl-09",
-    league: "ENGLAND PREMIER LEAGUE",
+    id: "eflcup-04",
+    league: "ENGLAND EFL CUP",
     home: "MANCHESTER UNITED",
-    away: "MANCHESTER CITY",
+    away: "BRIGHTON",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
-    kickoff: "2026-09-13T22:00:00+06:30",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/fd/Brighton_and_Hove_Albion_FC_crest.svg",
+    kickoff: "2026-09-17T01:30:00+06:30",
     status: "auto",
-    streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/08552895.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/78905744.m3u8"
-      },
-      {
-        label: "HD-3",
-        url: "https://live05.meung.app/live/33982309.m3u8"
-      },
-      {
-        label: "HD-4",
-        url: "https://live05.meung.app/live/14830711.m3u8"
-      },
-      {
-        label: "FHD",
-        url: "https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001789312062-0-0-4f2e072f26ee1ae31a31ffdd5d84d88f"
-      },
-      {
-        label: "FHD-2",
-        url: "https://live2.domaincdn.cc/livecdn/channel-5.m3u8?auth_key=3000001789312074-0-0-05a8dabb4b6388b1e4200b28f42b39ed"
-      },
-      {
-        label: "FHD-3",
-        url: "https://live1.quickscoreboardz.com/live/channel6/playlist.m3u8?wsSecret=299b2a4372168ab0f97dfcc7416cddff&wsABSTime=1789355308"
-      },
-      {
-        label: "FHD-4",
-        url: "https://live2.domaincdn.cc/livecdn/channel-11.m3u8?auth_key=3000001789312125-0-0-6640382a88876fc3059a31dd395e90ca"
-      },
-      {
-        label: "FHD-5",
-        url: "https://live2.domaincdn.cc/livecdn/channel-16.m3u8?auth_key=3000001789312142-0-0-a315fa6709534d455c03d6a54d62ea5a"
-      },
-      {
-        label: "FHD-6",
-        url: "https://live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=39b0834b7e355c967732b1bbd23ff83a&wsABSTime=1789355356"
-      },
-      {
-        label: "FHD-7",
-        url: "https://live1.quickscoreboardz.com/live/channel15/playlist.m3u8?wsSecret=9b44da351136bad96257d556a2992dff&wsABSTime=1789355387"
-      },
-      {
-        label: "Soco",
-        url: "https://pull.niur.live/live/stream-387694_lhd.m3u8?txSecret=77267ec7ef019d73084946a7f77bd4d0&txTime=6aa6d683#skip"
-      },
-      {
-        label: "SD",
-        url: "https://pull.niur.live/live/stream-414317_lsd.m3u8?txSecret=cacd46d6edb13dbb5911b56763657913&txTime=6aa70cf2#skip"
-      }
-    ]
+    streams: []
   },
 
-  // =========================
+
+  // =========================================================
   // SPANISH LALIGA
-  // =========================
+  // =========================================================
 
   {
-    id: "laliga-02",
+    id: "laliga-05",
+    league: "SPANISH LALIGA",
+    home: "ATLETICO MADRID",
+    away: "OSASUNA",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/d/dc/Osasuna_logo.svg",
+    kickoff: "2026-09-16T23:30:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "laliga-06",
+    league: "SPANISH LALIGA",
+    home: "DEPORTIVO LA CORUNA",
+    away: "SEVILLA",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/8/8d/Deportivo_de_La_Coru%C3%B1a_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/3/3b/Sevilla_FC_logo.svg",
+    kickoff: "2026-09-16T23:30:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "laliga-07",
+    league: "SPANISH LALIGA",
+    home: "BARCELONA",
+    away: "RACING SANTANDER",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/2/2a/Racing_Santander_logo.svg",
+    kickoff: "2026-09-17T02:00:00+06:30",
+    status: "auto",
+    streams: []
+  },
+
+  {
+    id: "laliga-08",
     league: "SPANISH LALIGA",
     home: "LEVANTE",
-    away: "BARCELONA",
+    away: "ATHLETIC BILBAO",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/6/6c/Levante_UD_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg",
-    kickoff: "2026-09-13T20:45:00+06:30",
-    status: "auto",
-    streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/75748097.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/97885009.m3u8"
-      }
-    ]
-  },
-
-  {
-    id: "laliga-03",
-    league: "SPANISH LALIGA",
-    home: "REAL SOCIEDAD",
-    away: "ATLETICO MADRID",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/f/f1/Real_Sociedad_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/f4/Atletico_Madrid_2017_logo.svg",
-    kickoff: "2026-09-14T01:30:00+06:30",
-    status: "auto",
-    streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/97885009.m3u8"
-      }
-    ]
-  },
-
-  // =========================
-  // ITALIAN SERIE A
-  // =========================
-
-  {
-    id: "seriea-02",
-    league: "ITALIAN SERIE A",
-    home: "NAPOLI",
-    away: "BOLOGNA",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/commons/2/2d/SSC_Napoli_2024.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/5a/Bologna_F.C._1909_logo.svg",
-    kickoff: "2026-09-13T22:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  {
-    id: "seriea-03",
-    league: "ITALIAN SERIE A",
-    home: "SASSUOLO",
-    away: "JUVENTUS",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/4/45/US_Sassuolo_Calcio_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/commons/1/15/Juventus_FC_2017_logo.svg",
-    kickoff: "2026-09-14T01:15:00+06:30",
-    status: "auto",
-    streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/90865415.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/33982309.m3u8"
-      }
-    ]
-  },
-
-  // =========================
-  // GERMAN BUNDESLIGA
-  // =========================
-
-  {
-    id: "bundesliga-03",
-    league: "GERMAN BUNDESLIGA",
-    home: "RB LEIPZIG",
-    away: "HAMBURG",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/0/04/RB_Leipzig_2014_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/commons/6/66/HSV-Logo.svg",
-    kickoff: "2026-09-13T20:00:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  {
-    id: "bundesliga-04",
-    league: "GERMAN BUNDESLIGA",
-    home: "ELVERSBERG",
-    away: "BAYERN MUNICH",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/7a/SV_Elversberg_Logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg",
-    kickoff: "2026-09-13T22:00:00+06:30",
-    status: "auto",
-    streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/90865415.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/87379114.m3u8"
-      }
-    ]
-  },
-
-  // =========================
-  // FRENCH LIGUE 1
-  // =========================
-
-  {
-    id: "ligue1-03",
-    league: "FRENCH LIGUE 1",
-    home: "LILLE",
-    away: "TROYES",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3f/Lille_OSC_2018_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/9/9f/ES_Troyes_AC_logo.svg",
-    kickoff: "2026-09-13T19:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  {
-    id: "ligue1-04",
-    league: "FRENCH LIGUE 1",
-    home: "BREST",
-    away: "PSG",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3d/Stade_Brestois_29_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg",
-    kickoff: "2026-09-14T01:15:00+06:30",
-    status: "auto",
-    streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/08552895.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/78905744.m3u8"
-      }
-    ]
-  },
-
-  // =========================================================
-  // ADDITIONAL EPL MATCHES
-  // =========================================================
-
-  {
-    id: "epl-07",
-    league: "ENGLAND PREMIER LEAGUE",
-    home: "SUNDERLAND FC",
-    away: "ARSENAL",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/7a/Sunderland_AFC_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg",
-    kickoff: "2026-09-13T01:30:00+06:30",
-    status: "auto",
-    streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/87379114.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/97885009.m3u8"
-      },
-      {
-        label: "FHD",
-        url: "https://hls.lauthaitv.cc/live/sun-ars-prem/index.m3u8"
-      },
-      {
-        label: "FHD-2",
-        url: "https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001789238648-0-0-ac1038217aa6474bb34b63b8ad938d92"
-      },
-      {
-        label: "FHD-3",
-        url: "https://live2.domaincdn.cc/livecdn/channel-15.m3u8?auth_key=3000001789238660-0-0-ce23fb4bee4de35f482dddbf8ceaddad"
-      },
-      {
-        label: "FHD-4",
-        url: "https://live1.quickscoreboardz.com/live/channel16/playlist.m3u8?wsSecret=899cf4aad699f11a97084c9b793cc686&wsABSTime=1789281871"
-      }
-    ]
-  },
-
-  {
-    id: "epl-10",
-    league: "ENGLAND PREMIER LEAGUE",
-    home: "LEEDS UNITED",
-    away: "NEWCASTLE UNITED",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/54/Leeds_United_F.C._logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Newcastle_United_Logo.svg",
-    kickoff: "2026-09-15T01:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  // =========================
-  // ADDITIONAL LALIGA
-  // =========================
-
-  {
-    id: "laliga-01",
-    league: "SPANISH LALIGA",
-    home: "REAL MADRID",
-    away: "RAYO VALLECANO",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/Rayo_Vallecano_logo.svg",
-    kickoff: "2026-09-13T01:30:00+06:30",
-    status: "auto",
-    streams: [
-      {
-        label: "HD",
-        url: "https://live05.meung.app/live/08552895.m3u8"
-      },
-      {
-        label: "HD-2",
-        url: "https://live05.meung.app/live/78905744.m3u8"
-      },
-      {
-        label: "HD-3",
-        url: "https://live05.meung.app/live/33982309.m3u8"
-      }
-    ]
-  },
-
-  {
-    id: "laliga-04",
-    league: "SPANISH LALIGA",
-    home: "VILLARREAL",
-    away: "REAL BETIS",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/7/70/Villarreal_CF_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/13/Real_betis_logo.svg",
-    kickoff: "2026-09-15T01:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  // =========================
-  // ADDITIONAL SERIE A
-  // =========================
-
-  {
-    id: "seriea-04",
-    league: "ITALIAN SERIE A",
-    home: "COMO",
-    away: "PARMA",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3b/Como_1907_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/3/3f/Parma_Calcio_1913_logo.svg",
-    kickoff: "2026-09-14T22:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  {
-    id: "seriea-05",
-    league: "ITALIAN SERIE A",
-    home: "TORINO",
-    away: "AS ROMA",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/2/2e/Torino_FC_Logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg",
-    kickoff: "2026-09-14T22:30:00+06:30",
-    status: "auto",
-    streams: []
-  },
-
-  {
-    id: "seriea-06",
-    league: "ITALIAN SERIE A",
-    home: "INTER MILAN",
-    away: "UDINESE",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/commons/0/05/FC_Internazionale_Milano_2021.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/7f/Udinese_Calcio_logo.svg",
-    kickoff: "2026-09-15T01:15:00+06:30",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/9/98/Club_Athletic_Bilbao_logo.svg",
+    kickoff: "2026-09-17T02:00:00+06:30",
     status: "auto",
     streams: []
   }
