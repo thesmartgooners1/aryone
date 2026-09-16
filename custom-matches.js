@@ -14,23 +14,6 @@ window.ARYONE_FOOTBALL_MATCHES = [
   },
 
   {
-    id: "laliga-10",
-    league: "SPANISH LALIGA",
-    home: "ELCHE",
-    away: "REAL MADRID",
-    homeLogo: "https://upload.wikimedia.org/wikipedia/en/0/00/Elche_CF_logo.svg",
-    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
-    kickoff: "2026-09-16T02:00:00+06:30",
-    status: "auto",
-    streams: [
-      {
-        label: "FHD",
-        url: "https://hls.lauthaitv.cc/live/elche-real-laliga/index.m3u8"
-      }
-    ]
-  },
-
-  {
     id: "eflcup-05",
     league: "ENGLAND EFL CUP",
     home: "WEST HAM",
@@ -142,6 +125,23 @@ window.ARYONE_FOOTBALL_MATCHES = [
   },
 
   {
+    id: "laliga-10",
+    league: "SPANISH LALIGA",
+    home: "ELCHE",
+    away: "REAL MADRID",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/0/00/Elche_CF_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+    kickoff: "2026-09-16T02:00:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/elche-real-laliga/index.m3u8"
+      }
+    ]
+  },
+
+  {
     id: "acle-01",
     league: "AFC CHAMPIONS LEAGUE ELITE",
     home: "PORT FC",
@@ -150,7 +150,16 @@ window.ARYONE_FOOTBALL_MATCHES = [
     awayLogo: "https://images.fotmob.com/image_resources/logo/teamlogo/4688_small.png",
     kickoff: "2026-09-16T18:45:00+06:30",
     status: "auto",
-    streams: []
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/02456966_tsc.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/87379114_tsc.m3u8"
+      }
+    ]
   },
 
   {
