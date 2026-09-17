@@ -181,10 +181,6 @@ window.ARYONE_FOOTBALL_MATCHES = [
     ]
   },
 
-  // =========================
-  // NEW MATCHES
-  // =========================
-
   {
     id: "laliga-14",
     league: "SPANISH LALIGA",
@@ -240,6 +236,35 @@ window.ARYONE_FOOTBALL_MATCHES = [
       {
         label: "HD-2",
         url: "https://live05.meung.app/live/99121525_tsc.m3u8"
+      }
+    ]
+  },
+
+  {
+    id: "eflcup-13",
+    league: "ENGLAND EFL CUP",
+    home: "MANCHESTER CITY",
+    away: "NORWICH CITY",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/17/Norwich_City_FC_logo.svg",
+    kickoff: "2026-09-18T01:30:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/02456966_tsc.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/14707124_tsc.m3u8"
+      },
+      {
+        label: "HD-3",
+        url: "https://live05.meung.app/live/14830711_tsc.m3u8"
+      },
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/mnc-nor-eflcup/index.m3u8"
       }
     ]
   }
