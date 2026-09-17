@@ -267,6 +267,99 @@ window.ARYONE_FOOTBALL_MATCHES = [
         url: "https://hls.lauthaitv.cc/live/mnc-nor-eflcup/index.m3u8"
       }
     ]
+  },
+
+  {
+    id: "laliga-15",
+    league: "SPANISH LALIGA",
+    home: "MALAGA",
+    away: "VILLARREAL",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/5d/Malaga_CF_crest.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/70/Villarreal_CF_logo.svg",
+    kickoff: "2026-09-18T02:30:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/malaga-villarreal-laliga/index.m3u8"
+      }
+    ]
+  },
+
+  {
+    id: "uel-16",
+    league: "UEFA EUROPA LEAGUE",
+    home: "BESIKTAS",
+    away: "MARSEILLE",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/0/0e/Be%C5%9Fikta%C5%9F_JK_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/4/43/Olympique_Marseille_logo.svg",
+    kickoff: "2026-09-18T01:30:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/18812304_tsc.m3u8"
+      }
+    ]
+  },
+
+  {
+    id: "uel-17",
+    league: "UEFA EUROPA LEAGUE",
+    home: "CRYSTAL PALACE",
+    away: "LECH POZNAN",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/a/a2/Crystal_Palace_FC_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/2/2a/Lech_Poznan_herb.svg",
+    kickoff: "2026-09-18T02:30:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/90865415_tsc.m3u8"
+      }
+    ]
+  },
+
+  {
+    id: "uel-18",
+    league: "UEFA EUROPA LEAGUE",
+    home: "REAL SOCIEDAD",
+    away: "BOURNEMOUTH",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/f/f1/Real_Sociedad_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/e5/AFC_Bournemouth_%282013%29.svg",
+    kickoff: "2026-09-18T02:30:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/08552895_tsc.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/97885009_tsc.m3u8"
+      }
+    ]
+  },
+
+  {
+    id: "uel-20",
+    league: "UEFA EUROPA LEAGUE",
+    home: "JUVENTUS",
+    away: "NEC NIJMEGEN",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/3/3e/Juventus_FC_2017_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/7c/N.E.C._logo.svg",
+    kickoff: "2026-09-18T01:30:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/33982309_tsc.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/99121525_tsc.m3u8"
+      }
+    ]
   }
 
 ];
