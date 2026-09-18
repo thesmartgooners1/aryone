@@ -247,7 +247,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "NORWICH CITY",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/17/Norwich_City_FC_logo.svg",
-    kickoff: "2026-09-18T01:00:00+06:30",
+    kickoff: "2026-09-18T01:30:00+06:30",
     status: "auto",
     streams: [
       {
@@ -276,7 +276,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "VILLARREAL",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/5d/Malaga_CF_crest.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/70/Villarreal_CF_logo.svg",
-    kickoff: "2026-09-18T02:00:00+06:30",
+    kickoff: "2026-09-18T02:30:00+06:30",
     status: "auto",
     streams: [
       {
@@ -310,7 +310,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "LECH POZNAN",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/a/a2/Crystal_Palace_FC_logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/2/2a/Lech_Poznan_herb.svg",
-    kickoff: "2026-09-18T01:30:00+06:30",
+    kickoff: "2026-09-18T02:30:00+06:30",
     status: "auto",
     streams: [
       {
@@ -327,7 +327,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "BOURNEMOUTH",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/f/f1/Real_Sociedad_logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/e5/AFC_Bournemouth_%282013%29.svg",
-    kickoff: "2026-09-18T01:30:00+06:30",
+    kickoff: "2026-09-18T02:30:00+06:30",
     status: "auto",
     streams: [
       {
@@ -396,6 +396,85 @@ window.ARYONE_FOOTBALL_MATCHES = [
       {
         label: "HD",
         url: "https://live05.meung.app/live/16226575_tsc.m3u8"
+      }
+    ]
+  },
+
+  {
+    id: "laliga-16",
+    league: "SPANISH LALIGA",
+    home: "ESPANYOL",
+    away: "ELCHE",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/a/a7/RCD_Espanyol_crest.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/0/00/Elche_CF_logo.svg",
+    kickoff: "2026-09-19T02:00:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/07428422_tsc.m3u8"
+      },
+      {
+        label: "FHD",
+        url: "https://live2.domaincdn.cc/livecdn/channel-15.m3u8?auth_key=3000001789756721-0-0-d9cc932a7e0608a7ffc944ca842f7b11"
+      }
+    ]
+  },
+
+  {
+    id: "epl-01",
+    league: "ENGLAND PREMIER LEAGUE",
+    home: "BRENTFORD",
+    away: "CHELSEA",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/2/2a/Brentford_FC_crest.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg",
+    kickoff: "2026-09-19T02:00:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/78905744_tsc.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/33982309_tsc.m3u8"
+      },
+      {
+        label: "HD-3",
+        url: "https://live05.meung.app/live/08552895_tsc.m3u8"
+      },
+      {
+        label: "FHD",
+        url: "https://hls.lauthaitv.cc/live/bre-che-prem/index.m3u8"
+      },
+      {
+        label: "FHD-2",
+        url: "https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001789756652-0-0-4a18c64210c7bc034696cb6dd11b4080"
+      },
+      {
+        label: "FHD-3",
+        url: "https://live2.domaincdn.cc/livecdn/channel-5.m3u8?auth_key=3000001789756669-0-0-64dcc80baf63cefc62126607c42b1e57"
+      },
+      {
+        label: "FHD-4",
+        url: "https://live1.quickscoreboardz.com/live/channel24/playlist.m3u8?wsSecret=93a785699ee909a315e08248f5bd7007&wsABSTime=1789799880"
+      }
+    ]
+  },
+
+  {
+    id: "ligue1-01",
+    league: "FRENCH LIGUE 1",
+    home: "MONACO",
+    away: "LENS",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/b/ba/AS_Monaco_FC.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/c/cc/RC_Lens_logo.svg",
+    kickoff: "2026-09-19T01:45:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/07808742_tsc.m3u8"
       }
     ]
   }
