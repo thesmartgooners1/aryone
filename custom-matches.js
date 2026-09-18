@@ -247,7 +247,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "NORWICH CITY",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/1/17/Norwich_City_FC_logo.svg",
-    kickoff: "2026-09-18T01:30:00+06:30",
+    kickoff: "2026-09-18T01:00:00+06:30",
     status: "auto",
     streams: [
       {
@@ -276,7 +276,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "VILLARREAL",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/5/5d/Malaga_CF_crest.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/7/70/Villarreal_CF_logo.svg",
-    kickoff: "2026-09-18T02:30:00+06:30",
+    kickoff: "2026-09-18T02:00:00+06:30",
     status: "auto",
     streams: [
       {
@@ -310,7 +310,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "LECH POZNAN",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/a/a2/Crystal_Palace_FC_logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/2/2a/Lech_Poznan_herb.svg",
-    kickoff: "2026-09-18T02:30:00+06:30",
+    kickoff: "2026-09-18T01:30:00+06:30",
     status: "auto",
     streams: [
       {
@@ -327,7 +327,7 @@ window.ARYONE_FOOTBALL_MATCHES = [
     away: "BOURNEMOUTH",
     homeLogo: "https://upload.wikimedia.org/wikipedia/en/f/f1/Real_Sociedad_logo.svg",
     awayLogo: "https://upload.wikimedia.org/wikipedia/en/e/e5/AFC_Bournemouth_%282013%29.svg",
-    kickoff: "2026-09-18T02:30:00+06:30",
+    kickoff: "2026-09-18T01:30:00+06:30",
     status: "auto",
     streams: [
       {
@@ -358,6 +358,44 @@ window.ARYONE_FOOTBALL_MATCHES = [
       {
         label: "HD-2",
         url: "https://live05.meung.app/live/99121525_tsc.m3u8"
+      }
+    ]
+  },
+
+  {
+    id: "bundesliga-01",
+    league: "GERMAN BUNDESLIGA",
+    home: "BAYERN MUNICH",
+    away: "UNION BERLIN",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/1/1f/FC_Bayern_Munchen_logo_%282017%29.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/4/44/1._FC_Union_Berlin_Logo.svg",
+    kickoff: "2026-09-19T01:30:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/99121525_tsc.m3u8"
+      },
+      {
+        label: "HD-2",
+        url: "https://live05.meung.app/live/97885009_tsc.m3u8"
+      }
+    ]
+  },
+
+  {
+    id: "seriea-01",
+    league: "ITALIAN SERIE A",
+    home: "MONZA",
+    away: "SASSUOLO",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/0/0a/AC_Monza_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/4/45/US_Sassuolo_Calcio_logo.svg",
+    kickoff: "2026-09-19T02:15:00+06:30",
+    status: "auto",
+    streams: [
+      {
+        label: "HD",
+        url: "https://live05.meung.app/live/16226575_tsc.m3u8"
       }
     ]
   }
