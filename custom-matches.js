@@ -45,5 +45,20 @@ window.ARYONE_FOOTBALL_MATCHES = [
       { label: "HD", url: "https://live05.meung.app/live/90865415_tsc.m3u8" },
       { label: "HD-2", url: "https://live05.meung.app/live/14707124_tsc.m3u8" }
     ]
+  },
+
+  {
+    id: "laliga-18",
+    league: "SPANISH LALIGA",
+    home: "ATLETICO MADRID",
+    away: "REAL MADRID",
+    homeLogo: "https://upload.wikimedia.org/wikipedia/en/9/9a/Atletico_Madrid_2017_logo.svg",
+    awayLogo: "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg",
+    kickoff: "2026-09-20T22:45:00+06:30",
+    status: "auto",
+    streams: [
+      { label: "HD", url: "https://live05.meung.app/live/02456966_tsc.m3u8" },
+      { label: "HD-2", url: "https://live05.meung.app/live/97885009_tsc.m3u8" }
+    ]
   }
 ];
